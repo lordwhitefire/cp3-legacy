@@ -1,0 +1,19 @@
+name: ingest-reactions
+on:
+  schedule: [{cron: '*/15 * * * *'}]
+  workflow_dispatch:
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - run: npm i axios twitter-api-v2 snoowrap
+      - run: node scripts/ingest-reactions.js
+        env:
+          TWITTER_BEARER: ${{ secrets.TWITTER_BEARER }}
+          REDDIT_CLIENT: ${{ secrets.REDDIT_CLIENT }}
+          REDDIT_SECRET: ${{ secrets.REDDIT_SECRET }}
+          SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+          SANITY_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
