@@ -1,6 +1,7 @@
 name: ingest-reactions
 on:
-  schedule: [{cron: '*/15 * * * *'}]
+  schedule:
+    - cron: '0 9,21 * * *'   # 09:00 and 21:00 UTC daily
   workflow_dispatch:
 jobs:
   ingest:

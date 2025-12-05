@@ -2,7 +2,7 @@ export interface Reaction {
   _id: string
   source: 'twitter' | 'reddit' | 'news'
   text: string
-  votes: number
+  likes: number
   url: string
   created: string
   approved: boolean

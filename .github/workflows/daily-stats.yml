@@ -1,7 +1,8 @@
 name: nightly-stats
 on:
-  schedule: [{cron: '0 09 * * *'}]
-  workflow_dispatch:
+  schedule:
+    - cron: '0 09 * * *'   # 09:00 UTC daily
+  workflow_dispatch:       # manual trigger button
 jobs:
   scrape:
     runs-on: ubuntu-latest

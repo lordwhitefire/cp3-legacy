@@ -8,7 +8,7 @@ export default function ReactionWall({initial}: {initial: Reaction[]}) {
   const handleVote = async (id: string) => {
     // optimistic + mutate omitted for brevity
     setItems((prev) =>
-      prev.map((i) => (i._id === id ? {...i, votes: i.votes + 1} : i))
+      prev.map((i) => (i._id === id ? {...i, likes: i.likes + 1} : i))  // ✅ likes
     )
   }
 
@@ -20,7 +20,7 @@ export default function ReactionWall({initial}: {initial: Reaction[]}) {
           <div className="flex items-center justify-between mt-2 text-xs">
             <span className="text-gray-400">{r.source}</span>
             <button onClick={() => handleVote(r._id)} className="text-orange-400">
-              ▲ {r.votes}
+              ▲ {r.likes}  {/* ✅ likes */}
             </button>
           </div>
         </div>
