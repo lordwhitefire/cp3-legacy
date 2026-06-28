@@ -1,0 +1,267 @@
+=== SCREENSHOT REPORT ===
+
+============================================================
+VIEWPORT: desktop-1440 (1440x900)
+============================================================
+Page height: 6816px
+Tiles (max 2000px each):
+
+  Tile y=0 (1440x2000): 271 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [3] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <BUTTON> header-mobile__search-submit: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <A> info-block__link: c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [7] <A> info-block__link: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> info-block__link-wrapper: c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <IMG> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.06)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <A> : bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <A> : bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → desktop-1440_normal_y0.png
+  → desktop-1440_hover_y0.png
+
+  Tile y=2000 (1440x2000): 214 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <A> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.047)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> widget__content: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <A> btn btn-primary btn-xs btn-outline btn-sm: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → desktop-1440_normal_y2000.png
+  → desktop-1440_hover_y2000.png
+
+  Tile y=4000 (1440x2000): 140 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 239, 143)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.925)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.925)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(206, 183, 49)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> widget__content: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <A> btn btn-primary btn-xs btn-outline btn-sm: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → desktop-1440_normal_y4000.png
+  → desktop-1440_hover_y4000.png
+
+  Tile y=6000 (1440x816): 88 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.925)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <A> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.047)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> posts posts--cards posts--cards-thumb-left post-li: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <DIV> posts__item posts__item--card posts__item--categor: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.07)
+  → desktop-1440_normal_y6000.png
+  → desktop-1440_hover_y6000.png
+
+============================================================
+VIEWPORT: laptop-1280 (1280x800)
+============================================================
+Page height: 6816px
+Tiles (max 2000px each):
+
+  Tile y=0 (1280x2000): 271 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [3] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <BUTTON> header-mobile__search-submit: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <A> info-block__link: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <A> info-block__link: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> info-block__link-wrapper: c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <A> : bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  [19] <A> : bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → laptop-1280_normal_y0.png
+  → laptop-1280_hover_y0.png
+
+  Tile y=2000 (1280x2000): 214 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <A> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.047)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> widget__content: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <A> btn btn-primary btn-xs btn-outline btn-sm: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → laptop-1280_normal_y2000.png
+  → laptop-1280_hover_y2000.png
+
+  Tile y=4000 (1280x2000): 140 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <A> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.06)
+  [14] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> widget__content: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <A> btn btn-primary btn-xs btn-outline btn-sm: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → laptop-1280_normal_y4000.png
+  → laptop-1280_hover_y4000.png
+
+  Tile y=6000 (1280x816): 85 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [1] <IMG> : c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [2] <ASIDE> widget widget--side-panel: c: rgb(255, 255, 255) → rgb(255, 235, 118)
+  [3] <DIV> widget__content: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [4] <LI> posts__item posts__item--category-1: c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [5] <A> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [6] <FOOTER> posts__footer card__footer: c: rgb(255, 255, 255) → rgb(255, 239, 144)
+  [7] <IMG> : c: rgba(49, 64, 75, 0.4) → rgba(49, 64, 75, 0.882)
+  [8] <A> : c: rgb(107, 109, 112) → rgb(192, 173, 57)
+  [9] <A> : bg: rgba(0, 0, 0, 0) → rgba(255, 255, 255, 0.047)
+  [14] <DIV> card__content: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [18] <DIV> card__content: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.114)
+  [19] <FOOTER> posts__footer card__footer: bg: rgba(0, 0, 0, 0) → rgba(228, 231, 237, 0.094)
+  → laptop-1280_normal_y6000.png
+  → laptop-1280_hover_y6000.png
+
+============================================================
+VIEWPORT: tablet-768 (768x1024)
+============================================================
+Page height: 10537px
+Tiles (max 2000px each):
+
+  Tile y=0 (768x2000): 137 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> burger-menu-icon: c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y0.png
+  → tablet-768_hover_y0.png
+
+  Tile y=2000 (768x2000): 88 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y2000.png
+  → tablet-768_hover_y2000.png
+
+  Tile y=4000 (768x2000): 136 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y4000.png
+  → tablet-768_hover_y4000.png
+
+  Tile y=6000 (768x2000): 131 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y6000.png
+  → tablet-768_hover_y6000.png
+
+  Tile y=8000 (768x2000): 56 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y8000.png
+  → tablet-768_hover_y8000.png
+
+  Tile y=10000 (768x537): 70 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → tablet-768_normal_y10000.png
+  → tablet-768_hover_y10000.png
+
+============================================================
+VIEWPORT: mobile-375 (375x812)
+============================================================
+Page height: 14010px
+Tiles (max 2000px each):
+
+  Tile y=0 (375x2000): 126 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <A> : c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> burger-menu-icon: c: rgb(255, 204, 0) → rgb(255, 207, 3)
+  → mobile-375_normal_y0.png
+  → mobile-375_hover_y0.png
+
+  Tile y=2000 (375x2000): 53 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → mobile-375_normal_y2000.png
+  → mobile-375_hover_y2000.png
+
+  Tile y=4000 (375x2000): 66 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → mobile-375_normal_y4000.png
+  → mobile-375_hover_y4000.png
+
+  Tile y=6000 (375x2000): 54 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → mobile-375_normal_y6000.png
+  → mobile-375_hover_y6000.png
+
+  Tile y=8000 (375x2000): 173 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → mobile-375_normal_y8000.png
+  → mobile-375_hover_y8000.png
+
+  Tile y=10000 (375x2000): 72 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 206, 2)
+  → mobile-375_normal_y10000.png
+  → mobile-375_hover_y10000.png
+
+  Tile y=12000 (375x2000): 90 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <IMG> header-mobile__logo-img: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  [2] <A> : c: rgb(255, 204, 0) → rgb(255, 207, 3)
+  → mobile-375_normal_y12000.png
+  → mobile-375_hover_y12000.png
+
+  Tile y=14000 (375x10): 1 hoverable elements
+  Hover CSS changes in this tile:
+  [0] <LI> main-nav__item--social-links: c: rgb(255, 204, 0) → rgb(255, 220, 17)
+  → mobile-375_normal_y14000.png
+  → mobile-375_hover_y14000.png
+
+=== SUMMARY ===
+Total screenshots in: /home/lordwhitefire/current-project/cp/cp-legacy-frontend/public/screenshots

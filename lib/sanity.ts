@@ -15,4 +15,7 @@ export const sanityClient = createClient({
 export const queries = {
   approvedReactions: groq`*[_type == "reaction" && approved == true] | order(created desc)`,
   statLines: groq`*[_type == "statLine"] | order(season desc)`,
+  newsArticles: groq`*[_type == "reaction" && source == "news" && approved == true] | order(created desc)`,
+  redditReactions: groq`*[_type == "reaction" && source == "reddit" && approved == true] | order(created desc)`,
+  reactionById: groq`*[_id == $id][0]`,
 }

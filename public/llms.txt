@@ -1,0 +1,32 @@
+# CP3 Legacy Tracker
+
+A Chris Paul career stats, news, and fan reactions tracker built by LordWhiteFire.
+
+## Developer
+
+- Name: LordWhiteFire
+- GitHub: https://github.com/lordwhitefire
+- LinkedIn: https://linkedin.com/in/lordwhitefire
+- Portfolio: https://lordwhitefire.dev
+- Email: lordwhitefire@proton.me
+- Location: Remote
+- Specialties: Full-stack web development, Next.js, React, TypeScript, Sanity CMS, Tailwind CSS, Node.js automation, CI/CD (GitHub Actions), REST API design, SEO, data scraping & ingestion pipelines
+- Stack: Next.js 16, React 19, TypeScript 5, Sanity CMS v7, Tailwind CSS v4, Axios, Cheerio
+
+## Project
+
+- Stack: Next.js 16 (App Router), React 19, TypeScript 5, Sanity CMS v7, Tailwind CSS v4
+- Hosting: Vercel (production), GitHub (source)
+- Data: Basketball-Reference.com scrape (cheerio), Google News RSS, Reddit RSS
+- Automation: GitHub Actions (hourly cron) — scrape-stats.js, ingest-news.js, ingest-reddit.js
+- Design: Minimal black & white, responsive, three-section homepage (Stats → News → Reactions)
+- Features: Career stat hero with 21+ fields per season, news grid with og:image extraction, paginated fan reaction wall (20/page), HireCTA gig form (Twilio SMS)
+
+## Deployment
+
+1. Set env vars in Vercel dashboard (SANITY_PROJECT_ID, SANITY_TOKEN, SANITY_API_READ_TOKEN, SANITY_API_WRITE_TOKEN, NEXT_PUBLIC_SANITY_PROJECT_ID, NEXT_PUBLIC_SANITY_DATASET, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, REVALIDATE_SECRET)
+2. `npm ci && npm run build`
+3. Push to GitHub — Vercel auto-deploys
+4. GitHub Actions runs ingest scripts every hour via cron
+
+Developed by LordWhiteFire.
