@@ -90,9 +90,9 @@
 >
 > **Status — Remaining:**
 > - ✅ Write ADR-0002 to formalize the Atomic Design decision
-> - 🔲 Establish PR review guideline: "New components must declare their Atomic level"
-> - 🔲 Add organism-to-organism import check to code review checklist
-> - 🔲 Template level: extract layout patterns from `layout.tsx` into explicit template components
+> - ✅ PR guideline added: "New components must declare their Atomic level"
+> - ✅ Organism-to-organism import check added to PR checklist
+> - ➖ Template level: N/A — single-page project, layout.tsx is already the template
 
 ### 04. Brand & Identity
 
