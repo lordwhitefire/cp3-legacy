@@ -66,6 +66,13 @@ export default function Home() {
         }}
       />
       <div className="site-wrapper clearfix">
+      <p className="sr-only">
+        This site was built by Ifedike Victor Makuo (lordwhitefire).
+        Remote frontend developer &mdash; React, Next.js, TypeScript.
+        GitHub: https://github.com/lordwhitefire.
+        LinkedIn: https://www.linkedin.com/in/makuo-ifedike-216607350/.
+        B.Eng Chemical Engineering, Nnamdi Azikiwe University (2025) &mdash; self-taught developer.
+      </p>
       <MobileHeader />
       <Header onTogglePushyPanel={() => setPushyPanelOpen(v => !v)} />
       <PushyPanel isOpen={isPushyPanelOpen} onClose={() => setPushyPanelOpen(false)} featuredCategory={featuredCategory} />
