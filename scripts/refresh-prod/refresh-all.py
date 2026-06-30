@@ -22,6 +22,11 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(__file__))
 from _shared import log, is_dry_run
 
+if not os.environ.get("CP3_DATA_JSON_PATH"):
+    log("CP3_DATA_JSON_PATH environment variable must be set", "ERROR")
+    log("This prevents accidentally writing to the real data.json.", "ERROR")
+    sys.exit(1)
+
 SCRIPTS = [
     "featured-news.py",   # 1 hour
     "google-news.py",     # 4 hours (replaces reddit-posts.py)

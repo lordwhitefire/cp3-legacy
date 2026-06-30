@@ -1,0 +1,44 @@
+name: daily-refresh
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install npm deps
+        run: npm ci
+
+      - name: Run validate-and-push
+        env:
+          CP3_DATA_JSON_PATH: /tmp/cp3-refresh/data.json
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SANITY_API_WRITE_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: python3 scripts/refresh-prod/validate_and_push.py
+
+      - name: Notify failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.summary.addHeading('Daily refresh failed');
+            core.summary.addLine('Check the Action logs for details.');
+            core.summary.write();

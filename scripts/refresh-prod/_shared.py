@@ -545,12 +545,23 @@ def _decode_html(s: str) -> str:
 # data.json read/write (replaces .ts file output)
 # ============================================================
 
-DATA_JSON_PATH = PROJECT_ROOT / "src" / "data" / "data.json"
+_DATA_JSON_ENV = "CP3_DATA_JSON_PATH"
+
+
+def _get_data_json_path() -> Path:
+    """Get the data.json path from env var. Fails if not set."""
+    val = os.environ.get(_DATA_JSON_ENV)
+    if not val:
+        raise RuntimeError(
+            f"{_DATA_JSON_ENV} environment variable must be set. "
+            "This prevents accidentally writing to the real data.json."
+        )
+    return Path(val)
 
 
 def read_data_json() -> dict:
-    """Read the current data.json. Returns empty dict on failure."""
-    path = DATA_JSON_PATH
+    """Read the data.json at CP3_DATA_JSON_PATH."""
+    path = _get_data_json_path()
     if not path.exists():
         log(f"data.json not found at {path}", "WARN")
         return {}
@@ -565,10 +576,11 @@ def read_data_json() -> dict:
 
 def write_data_json(data: dict, dry_run: bool = False) -> bool:
     """Write the entire data.json with .bak backup."""
-    path = DATA_JSON_PATH
+    path = _get_data_json_path()
     if dry_run:
         log(f"DRY RUN — would write to {path}")
         return True
+    path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
         bak_path = path.with_suffix(".json.bak")
         backup_data = path.read_text(encoding="utf-8")
