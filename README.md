@@ -23,10 +23,11 @@ bun run start        # serves the production build
 
 ### Dev/Prod Parity
 
-- Same Node.js version is used in dev and CI (see `.node-version` or `package.json` `engines`)
-- Build locally before pushing: `bun run build` must succeed
-- Lint before push: `bun run lint`
-- Environment variables for dev and production are declared in `.env.example` — `.env.local` is gitignored
+- Same Node.js version in dev and CI: see `.node-version` (20.20.0) or `package.json` `engines`
+- Build locally before pushing: `npm run build` must succeed
+- Lint before push: `npm run lint`
+- Env vars documented in `.env.example` — copy to `.env.local` and fill in real values (`.env.local` is gitignored)
+- Vercel deploy mirrors the same build command; env vars set in Vercel dashboard match `.env.example`
 
 ## Deployment
 

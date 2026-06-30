@@ -38,7 +38,7 @@
 > **Status — Remaining:**
 > - ✅ Factor IV: Sanity isolated from components to protect the UI. Direct Sanity queries in component code (via `site-data-context.tsx` / `queries.ts`) were causing the AI assistant to repeatedly modify and break UI components. Fix: all content is fetched at build time by `generate-data.ts` and served as static `data.json`. Components are pure UI — they never import or know about Sanity. The Sanity client code exists as a separate module but is kept out of the component tree. Fresh data is supplied by the daily-refresh GitHub Action pipeline.
 > - ➖ Factor VIII: N/A — demo project, no production traffic expected
-> - 🔲 Factor X: Document dev/prod parity check in README — build locally before deploy, same Node version in both environments
+> - ✅ Factor X: Dev/prod parity documented in README — .node-version, engines in package.json, .env.example, build/lint before push
 
 ### 02. Stack Decisions
 
