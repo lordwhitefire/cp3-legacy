@@ -64,8 +64,8 @@
 >
 > **Status — Remaining:**
 > - ✅ Write ADR-0002 for the next adopted standard from this pipeline
-> - 🔲 Add ADR creation to the definition of done for significant technical decisions
-> - 🔲 Establish PR review checklist: "Does this change require a new ADR or an update to an existing one?"
+> - ✅ ADR creation added to definition of done — see PR checklist in `.github/PULL_REQUEST_TEMPLATE.md`
+> - ✅ PR review checklist established with ADR question
 
 ### 03. Design System
 
