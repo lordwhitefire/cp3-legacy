@@ -163,10 +163,8 @@
 >
 > **Status — Remaining:**
 > - ✅ Write ADR-0005 to formalize the Layout Hierarchy decision
-> - 🔲 Audit current component tree and document which layouts will be needed for future routes
-> - 🔲 Add `loading.tsx` and `error.tsx` at root layout level
-> - 🔲 Map Atomic Design Template level (Area 03) to App Router layout structure in documentation
-> - 🔲 Document layout composition rules in project README or architecture doc
+> - ✅ Covered by Area 05 — component tree, layout docs, and Atomic Design mapping documented in README Frontend Architecture section
+> - ✅ `loading.tsx` and `error.tsx` created at root layout level (Area 05)
 
 ### 07. SEO & Discoverability
 
