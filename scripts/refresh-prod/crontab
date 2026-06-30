@@ -1,0 +1,21 @@
+# CP3 Legacy — Production Refresh Scripts Cron Configuration
+# ============================================================
+#
+# Install on your server:
+#   1. Edit this file: replace /path/to/cp3-legacy with your actual repo path
+#   2. Set your API keys in your crontab environment OR in a .env file
+#   3. Install: crontab scripts/refresh-prod/crontab
+#
+# Required environment variables:
+#   GROQ_API_KEY     — free at https://console.groq.com
+#
+# Image search uses DuckDuckGo (free, no key) — no key needed.
+#
+# Schedule:
+#   - refresh-all runs all 5 scripts once daily at 3 AM (24-hour cycle)
+
+# ===== Set environment variables =====
+GROQ_API_KEY=your_groq_key_here
+
+# ===== Daily at 3 AM: full refresh (all scripts) =====
+0 3 * * * cd /path/to/cp3-legacy && /usr/bin/python3 scripts/refresh-prod/refresh-all.py >> /tmp/cp3-refresh-all.log 2>&1

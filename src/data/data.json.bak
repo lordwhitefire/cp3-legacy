@@ -1,0 +1,1732 @@
+{
+  "site": {
+    "name": "Alchemists",
+    "tagline": "Elric Bros School",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "/alchemists/assets/images/logo.png",
+    "url": "/alchemists/index.html",
+    "favicon": ""
+  },
+  "header": {
+    "topBar": {
+      "account": {
+        "label": "Your Account",
+        "url": "/alchemists/index.html#"
+      },
+      "wishlist": {
+        "label": "Wishlist",
+        "count": 8,
+        "url": "/alchemists/shop-wishlist.html"
+      },
+      "currency": {
+        "selected": "USD",
+        "options": [
+          "USD",
+          "EUR",
+          "GBP"
+        ]
+      },
+      "language": {
+        "selected": "EN",
+        "options": [
+          "English",
+          "Spanish",
+          "French",
+          "German"
+        ]
+      },
+      "logout": {
+        "label": "Logout",
+        "url": "/alchemists/index.html#"
+      }
+    },
+    "infoBlocks": [
+      {
+        "id": "contact-primary",
+        "icon": "jersey",
+        "heading": "Join Our Team!",
+        "linkText": "victormark2002@gmail.com",
+        "linkHref": "mailto:victormark2002@gmail.com"
+      },
+      {
+        "id": "contact-secondary",
+        "icon": "basketball",
+        "heading": "Contact Us",
+        "linkText": "victormark2002@gmail.com",
+        "linkHref": "mailto:victormark2002@gmail.com"
+      },
+      {
+        "id": "shopping-cart",
+        "heading": "Your Bag (8 items)",
+        "total": "$256,30",
+        "items": [
+          {
+            "category": "Sneakers",
+            "name": "Sundown Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-1.jpg",
+            "price": "$28.00",
+            "quantity": 2,
+            "rating": 4
+          },
+          {
+            "category": "Sneakers",
+            "name": "Atlantik Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-2.jpg",
+            "price": "$30.00",
+            "quantity": 4,
+            "rating": 5
+          },
+          {
+            "category": "Sneakers",
+            "name": "Aquarium Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-3.jpg",
+            "price": "$28.00",
+            "quantity": 1,
+            "rating": 3
+          }
+        ],
+        "subtotal": "$282.00",
+        "buttons": [
+          {
+            "label": "Go to Cart",
+            "url": "/alchemists/shop-cart.html",
+            "style": "btn-default"
+          },
+          {
+            "label": "Checkout",
+            "url": "/alchemists/shop-checkout.html",
+            "style": "btn-primary-inverse"
+          }
+        ]
+      }
+    ],
+    "navigation": {
+      "mobileLogo": {
+        "src": "/alchemists/assets/images/logo.png",
+        "alt": "Alchemists"
+      },
+      "items": [
+        {
+          "label": "Home",
+          "url": "/alchemists/index.html",
+          "active": true,
+          "children": [
+            {
+              "label": "Home - version 1",
+              "url": "/alchemists/index.html",
+              "active": true
+            },
+            {
+              "label": "Home - version 2",
+              "url": "/alchemists/index-2.html",
+              "active": false
+            },
+            {
+              "label": "Home - version 3",
+              "url": "/alchemists/index-3.html",
+              "active": false
+            }
+          ]
+        },
+        {
+          "label": "Features",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "megaMenu": {
+            "columns": [
+              {
+                "title": "Features",
+                "links": [
+                  {
+                    "label": "Shortcodes",
+                    "url": "/alchemists/features-shortcodes.html"
+                  },
+                  {
+                    "label": "Typography",
+                    "url": "/alchemists/features-typography.html"
+                  },
+                  {
+                    "label": "Widgets - Blog",
+                    "url": "/alchemists/features-widgets-blog.html"
+                  },
+                  {
+                    "label": "Widgets - Shop",
+                    "url": "/alchemists/features-widgets-shop.html"
+                  },
+                  {
+                    "label": "Widgets - Sports",
+                    "url": "/alchemists/features-widgets-sports.html"
+                  },
+                  {
+                    "label": "404 Error Page",
+                    "url": "/alchemists/features-404.html"
+                  },
+                  {
+                    "label": "Search Results",
+                    "url": "/alchemists/features-search-results.html"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "url": "/alchemists/page-contacts.html"
+                  }
+                ]
+              },
+              {
+                "title": "Other Pages",
+                "links": [
+                  {
+                    "label": "Sponsors",
+                    "url": "/alchemists/page-sponsors.html"
+                  },
+                  {
+                    "label": "FAQs",
+                    "url": "/alchemists/page-faqs.html"
+                  },
+                  {
+                    "label": "Staff Member",
+                    "url": "/alchemists/staff-single.html"
+                  },
+                  {
+                    "label": "Tournament",
+                    "url": "/alchemists/event-tournament.html"
+                  },
+                  {
+                    "label": "Shop Page",
+                    "url": "/alchemists/shop-list.html"
+                  },
+                  {
+                    "label": "Shopping Cart",
+                    "url": "/alchemists/shop-cart.html"
+                  },
+                  {
+                    "label": "Wishlist",
+                    "url": "/alchemists/shop-wishlist.html"
+                  },
+                  {
+                    "label": "Checkout",
+                    "url": "/alchemists/shop-checkout.html"
+                  }
+                ]
+              },
+              {
+                "type": "featured-post",
+                "category": "The Team",
+                "title": "The team is starting a new power breakfast regimen",
+                "date": "August 23rd, 2017",
+                "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "author": {
+                  "name": "James Spiegel",
+                  "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+                },
+                "likes": 530,
+                "comments": 18
+              },
+              {
+                "type": "simple-posts",
+                "items": [
+                  {
+                    "category": "The Team",
+                    "title": "The new eco friendly stadium won a Leafy Award in 2016",
+                    "date": "August 21st, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img3-xs.jpg"
+                  },
+                  {
+                    "category": "Injuries",
+                    "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+                    "date": "August 23rd, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img1-xs.jpg"
+                  },
+                  {
+                    "category": "The Team",
+                    "title": "The team is starting a new power breakfast regimen",
+                    "date": "August 21st, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img4-xs.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "The Team",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "children": [
+            {
+              "label": "Team",
+              "url": "/alchemists/team-overview.html",
+              "children": [
+                {
+                  "label": "Overview",
+                  "url": "/alchemists/team-overview.html"
+                },
+                {
+                  "label": "Roster",
+                  "url": "/alchemists/team-roster-2.html",
+                  "children": [
+                    {
+                      "label": "Roster - 1",
+                      "url": "/alchemists/team-roster-1.html"
+                    },
+                    {
+                      "label": "Roster - 2",
+                      "url": "/alchemists/team-roster-2.html"
+                    },
+                    {
+                      "label": "Roster - 3",
+                      "url": "/alchemists/team-roster-3.html"
+                    }
+                  ]
+                },
+                {
+                  "label": "Standings",
+                  "url": "/alchemists/team-standings.html"
+                },
+                {
+                  "label": "Latest Results",
+                  "url": "/alchemists/team-last-results.html"
+                },
+                {
+                  "label": "Schedule",
+                  "url": "/alchemists/team-schedule.html"
+                },
+                {
+                  "label": "Gallery",
+                  "url": "/alchemists/team-gallery.html",
+                  "children": [
+                    {
+                      "label": "Single Album",
+                      "url": "/alchemists/team-gallery-album.html"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Player",
+              "url": "/alchemists/player-overview.html",
+              "children": [
+                {
+                  "label": "Overview",
+                  "url": "/alchemists/player-overview.html"
+                },
+                {
+                  "label": "Full Statistics",
+                  "url": "/alchemists/player-stats.html"
+                },
+                {
+                  "label": "Biography",
+                  "url": "/alchemists/player-bio.html"
+                },
+                {
+                  "label": "Related News",
+                  "url": "/alchemists/player-news.html"
+                },
+                {
+                  "label": "Gallery",
+                  "url": "/alchemists/player-gallery.html"
+                }
+              ]
+            },
+            {
+              "label": "Staff Member",
+              "url": "/alchemists/staff-single.html"
+            },
+            {
+              "label": "Event",
+              "url": "/alchemists/event-overview.html",
+              "children": [
+                {
+                  "label": "Overview",
+                  "url": "/alchemists/event-overview.html"
+                },
+                {
+                  "label": "Box Score",
+                  "url": "/alchemists/event-box-score.html"
+                },
+                {
+                  "label": "Play-by-Play",
+                  "url": "/alchemists/event-play-by-play.html"
+                },
+                {
+                  "label": "Team Stats",
+                  "url": "/alchemists/event-team-stats.html"
+                },
+                {
+                  "label": "News Recap",
+                  "url": "/alchemists/event-news-recap.html"
+                },
+                {
+                  "label": "Videos",
+                  "url": "/alchemists/event-videos.html"
+                }
+              ]
+            },
+            {
+              "label": "Tournament",
+              "url": "/alchemists/event-tournament.html"
+            }
+          ]
+        },
+        {
+          "label": "News",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "children": [
+            {
+              "label": "News - version 1",
+              "url": "/alchemists/blog-1.html"
+            },
+            {
+              "label": "News - version 2",
+              "url": "/alchemists/blog-2.html"
+            },
+            {
+              "label": "News - version 3",
+              "url": "/alchemists/blog-3.html"
+            },
+            {
+              "label": "News - version 4",
+              "url": "/alchemists/blog-4.html"
+            },
+            {
+              "label": "Post",
+              "url": "/alchemists/index.html#",
+              "children": [
+                {
+                  "label": "Single Post - version 1",
+                  "url": "/alchemists/blog-post-1.html"
+                },
+                {
+                  "label": "Single Post - version 2",
+                  "url": "/alchemists/blog-post-2.html"
+                },
+                {
+                  "label": "Single Post - version 3",
+                  "url": "/alchemists/blog-post-3.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Shop",
+          "url": "/alchemists/shop-grid.html",
+          "active": false,
+          "children": [
+            {
+              "label": "Shop - Grid",
+              "url": "/alchemists/shop-grid.html"
+            },
+            {
+              "label": "Shop - List",
+              "url": "/alchemists/shop-list.html"
+            },
+            {
+              "label": "Shop - Full Width",
+              "url": "/alchemists/shop-fullwidth.html"
+            },
+            {
+              "label": "Single Product",
+              "url": "/alchemists/shop-product.html"
+            },
+            {
+              "label": "Shopping Cart",
+              "url": "/alchemists/shop-cart.html"
+            },
+            {
+              "label": "Checkout",
+              "url": "/alchemists/shop-checkout.html"
+            },
+            {
+              "label": "Wishlist",
+              "url": "/alchemists/shop-wishlist.html"
+            },
+            {
+              "label": "Login",
+              "url": "/alchemists/shop-login.html"
+            },
+            {
+              "label": "Account",
+              "url": "/alchemists/shop-account.html"
+            }
+          ]
+        }
+      ],
+      "socialLinks": {
+        "inline": [
+          {
+            "platform": "Facebook",
+            "icon": "fab fa-facebook"
+          },
+          {
+            "platform": "Twitter",
+            "icon": "fab fa-twitter"
+          },
+          {
+            "platform": "Instagram",
+            "icon": "fab fa-instagram"
+          }
+        ],
+        "list": [
+          {
+            "platform": "Facebook",
+            "icon": "fab fa-facebook"
+          },
+          {
+            "platform": "Twitter",
+            "icon": "fab fa-twitter"
+          },
+          {
+            "platform": "Instagram",
+            "icon": "fab fa-instagram"
+          }
+        ]
+      }
+    },
+    "searchPlaceholder": "Enter your search here..."
+  },
+  "mobileHeader": {
+    "logo": {
+      "src": "/alchemists/assets/images/logo.png",
+      "alt": "Alchemists"
+    },
+    "searchPlaceholder": "Enter your search here..."
+  },
+  "heroUnit": {
+    "subtitle": "Elric Bros School",
+    "title": "The",
+    "titleHighlight": "Alchemists",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore .",
+    "button": {
+      "text": "Read More",
+      "url": "/alchemists/index.html#"
+    },
+    "image": "/alchemists/assets/images/samples/header_player.png"
+  },
+  "featuredCarousel": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
+        "category": "Playoffs",
+        "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 17490,
+        "likes": 3490,
+        "comments": 110
+      },
+      {
+        "id": "slide-2",
+        "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
+        "category": "Playoffs",
+        "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 53312,
+        "likes": 4312,
+        "comments": 132
+      },
+      {
+        "id": "slide-3",
+        "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
+        "category": "The Team",
+        "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 45783,
+        "likes": 1783,
+        "comments": 203
+      },
+      {
+        "id": "slide-4",
+        "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
+        "category": "Playoffs",
+        "title": "How a retired point guard is leaving his mark on\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 30261,
+        "likes": 1261,
+        "comments": 81
+      },
+      {
+        "id": "slide-5",
+        "image": "/alchemists/assets/images/samples/refresh-featured-5.jpg",
+        "category": "The Team",
+        "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 24851,
+        "likes": 5851,
+        "comments": 71
+      },
+      {
+        "id": "slide-6",
+        "image": "/alchemists/assets/images/samples/refresh-featured-6.jpg",
+        "category": "Playoffs",
+        "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 29596,
+        "likes": 5596,
+        "comments": 216
+      },
+      {
+        "id": "slide-7",
+        "image": "/alchemists/assets/images/samples/refresh-featured-7.jpg",
+        "category": "The Team",
+        "title": "See highlights from Chris Paul\u2019s NBA career - USA Today",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 50561,
+        "likes": 1561,
+        "comments": 181
+      },
+      {
+        "id": "slide-8",
+        "image": "/alchemists/assets/images/samples/refresh-featured-8.jpg",
+        "category": "The Team",
+        "title": "Chris Paul Saga Highlights Everything That\u2019s Wrong With the Clippers\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 51426,
+        "likes": 2426,
+        "comments": 46
+      },
+      {
+        "id": "slide-9",
+        "image": "/alchemists/assets/images/samples/refresh-featured-9.jpg",
+        "category": "The Team",
+        "title": "After a legendary 21-season NBA career, superstar point guard Chris\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 38297,
+        "likes": 4297,
+        "comments": 117
+      },
+      {
+        "id": "slide-10",
+        "image": "/alchemists/assets/images/samples/refresh-featured-10.jpg",
+        "category": "Playoffs",
+        "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 50465,
+        "likes": 1465,
+        "comments": 85
+      },
+      {
+        "id": "slide-11",
+        "image": "/alchemists/assets/images/samples/refresh-featured-11.jpg",
+        "category": "The Team",
+        "title": "Chris Paul: from rival to forever respected Spur - Pounding\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 17677,
+        "likes": 3677,
+        "comments": 97
+      },
+      {
+        "id": "slide-12",
+        "image": "/alchemists/assets/images/samples/refresh-featured-12.jpg",
+        "category": "Playoffs",
+        "title": "Chris Paul's fit will determine the Clippers' title hopes -\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 18873,
+        "likes": 4873,
+        "comments": 93
+      },
+      {
+        "id": "slide-13",
+        "image": "/alchemists/assets/images/samples/refresh-featured-13.jpg",
+        "category": "The Team",
+        "title": "San Antonio Spurs Earn LA Lakers Comparison, They Might Fall\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 14631,
+        "likes": 5631,
+        "comments": 51
+      },
+      {
+        "id": "slide-14",
+        "image": "/alchemists/assets/images/samples/refresh-featured-14.jpg",
+        "category": "The Team",
+        "title": "'No Limit!' Chris Paul's Continued Victor Wembanyama Praise Testament to\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 27443,
+        "likes": 3443,
+        "comments": 63
+      }
+    ]
+  },
+  "mainContent": {
+    "featuredNews": {
+      "title": "Featured News",
+      "categories": [
+        {
+          "label": "All",
+          "slug": "all"
+        },
+        {
+          "label": "The Team",
+          "slug": "posts__item--category-1"
+        },
+        {
+          "label": "Playoffs",
+          "slug": "posts__item--category-3"
+        },
+        {
+          "label": "Injuries",
+          "slug": "posts__item--category-2"
+        }
+      ],
+      "slides": [
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
+          "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
+          "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "How a retired point guard is leaving his mark on\u2026",
+          "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-5.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special\u2026",
+          "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-6.jpg",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |\u2026",
+          "excerpt": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq)  Mshale",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28"
+        }
+      ]
+    },
+    "postCards": {
+      "row1": [
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
+          "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
+          "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 22490,
+          "comments": 100,
+          "likes": 2990
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
+          "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
+          "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 18312,
+          "comments": 22,
+          "likes": 1812
+        }
+      ],
+      "row2": {
+        "card": {
+          "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 30783,
+          "comments": 93,
+          "likes": 2283
+        },
+        "simpleList": [
+          {
+            "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express\u2026",
+            "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
+            "category": "Playoffs",
+            "date": "2026-06-28",
+            "dateTime": "2026-06-28"
+          },
+          {
+            "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special - heavy.com",
+            "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
+            "category": "The Team",
+            "date": "2026-06-28",
+            "dateTime": "2026-06-28"
+          },
+          {
+            "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq) -\u2026",
+            "excerpt": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq)  Mshale",
+            "category": "Playoffs",
+            "date": "2026-06-28",
+            "dateTime": "2026-06-28"
+          }
+        ]
+      },
+      "mainBanner": {
+        "image": "/alchemists/assets/images/samples/refresh-featured-7.jpg",
+        "category": "The Team",
+        "title": "See highlights from Chris Paul\u2019s NBA career - USA Today",
+        "titleHighlight": "",
+        "titleEnd": "",
+        "excerpt": "See highlights from Chris Paul\u2019s NBA career  USA Today",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "button": {
+          "text": "Read More",
+          "url": "/alchemists/index.html#"
+        }
+      },
+      "row3": [
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-9.jpg",
+          "title": "After a legendary 21-season NBA career, superstar point guard Chris\u2026",
+          "excerpt": "After a legendary 21-season NBA career, superstar point guard Chris Paul officially announced that he is hanging up his jersey, confirming the decision on Feb. 13, 2026.  facebook.com",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 33297,
+          "comments": 107,
+          "likes": 1797
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-10.jpg",
+          "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |\u2026",
+          "excerpt": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns | 2022 NBA Playoffs Thermos (pExiiTYsGA)  Mshale",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 25465,
+          "comments": 75,
+          "likes": 2965
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-11.jpg",
+          "title": "Chris Paul: from rival to forever respected Spur - Pounding\u2026",
+          "excerpt": "Chris Paul: from rival to forever respected Spur  Pounding The Rock",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 22677,
+          "comments": 87,
+          "likes": 3177
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-12.jpg",
+          "title": "Chris Paul's fit will determine the Clippers' title hopes -\u2026",
+          "excerpt": "Chris Paul's fit will determine the Clippers' title hopes  Clipperholics",
+          "category": "Playoffs",
+          "categoryClass": "posts__cat-label--cat-3",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 13873,
+          "comments": 83,
+          "likes": 3373
+        }
+      ]
+    },
+    "latestNews": {
+      "title": "Latest News",
+      "seeAllUrl": "/alchemists/index.html#",
+      "items": [
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
+          "category": "Playoffs",
+          "title": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals - BasketNews.com",
+          "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 17490,
+          "likes": 3490,
+          "comments": 140
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
+          "category": "Playoffs",
+          "title": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs - sportingnews.com",
+          "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 53312,
+          "likes": 4312,
+          "comments": 162
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
+          "category": "The Team",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d - Basketball Networ\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 45783,
+          "likes": 1783,
+          "comments": 233
+        },
+        {
+          "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
+          "category": "Playoffs",
+          "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express\u2026",
+          "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
+          "date": "2026-06-28",
+          "dateTime": "2026-06-28",
+          "author": {
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "views": 30261,
+          "likes": 1261,
+          "comments": 111
+        }
+      ]
+    },
+    "standings": {
+      "title": "CP3 Milestone Seasons",
+      "seeAllUrl": "/alchemists/index.html#",
+      "headers": [
+        "Season",
+        "PPG",
+        "APG",
+        "RPG"
+      ],
+      "seasons": [
+        {
+          "label": "2005-06 \u00b7 Rookie",
+          "team": "New Orleans Hornets",
+          "ppg": "16.1",
+          "apg": "7.8",
+          "rpg": "5.1"
+        },
+        {
+          "label": "2006-07 \u00b7 Sophomore",
+          "team": "New Orleans Hornets",
+          "ppg": "17.3",
+          "apg": "8.9",
+          "rpg": "4.4"
+        },
+        {
+          "label": "2007-08 \u00b7 MVP Race",
+          "team": "New Orleans Hornets",
+          "ppg": "21.1",
+          "apg": "11.6",
+          "rpg": "4.0"
+        },
+        {
+          "label": "2008-09 \u00b7 Career High PPG",
+          "team": "New Orleans Hornets",
+          "ppg": "22.8",
+          "apg": "11.0",
+          "rpg": "5.5"
+        },
+        {
+          "label": "2011-12 \u00b7 Traded to LAC",
+          "team": "LA Clippers",
+          "ppg": "19.8",
+          "apg": "9.1",
+          "rpg": "3.6"
+        },
+        {
+          "label": "2013-14 \u00b7 All-Star MVP",
+          "team": "LA Clippers",
+          "ppg": "19.1",
+          "apg": "10.7",
+          "rpg": "4.3"
+        },
+        {
+          "label": "2015-16 \u00b7 Clippers Prime",
+          "team": "LA Clippers",
+          "ppg": "19.5",
+          "apg": "10.0",
+          "rpg": "4.2"
+        },
+        {
+          "label": "2017-18 \u00b7 Rockets 65-17",
+          "team": "Houston Rockets",
+          "ppg": "18.6",
+          "apg": "7.9",
+          "rpg": "5.4"
+        },
+        {
+          "label": "2019-20 \u00b7 OKC Comeback",
+          "team": "Oklahoma City Thunder",
+          "ppg": "17.6",
+          "apg": "6.7",
+          "rpg": "5.0"
+        },
+        {
+          "label": "2020-21 \u00b7 NBA Finals",
+          "team": "Phoenix Suns",
+          "ppg": "16.4",
+          "apg": "8.9",
+          "rpg": "4.5"
+        },
+        {
+          "label": "2021-22 \u00b7 Assists Leader",
+          "team": "Phoenix Suns",
+          "ppg": "14.7",
+          "apg": "10.8",
+          "rpg": "4.4"
+        },
+        {
+          "label": "Career \u00b7 19 Seasons",
+          "team": "17.5 PPG \u00b7 9.4 APG \u00b7 4.5 RPG",
+          "ppg": "17.5",
+          "apg": "9.4",
+          "rpg": "4.5"
+        }
+      ]
+    },
+    "socialWidget": [
+      {
+        "platform": "instagram",
+        "title": "Follow @CP3 on Instagram",
+        "icon": "fab fa-instagram",
+        "count": null,
+        "countLabel": "Followers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--instagram"
+      },
+      {
+        "platform": "twitter",
+        "title": "Follow @CP3 on Twitter",
+        "icon": "fab fa-twitter",
+        "count": null,
+        "countLabel": "Followers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--twitter"
+      },
+      {
+        "platform": "youtube",
+        "title": "Subscribe on YouTube",
+        "icon": "fab fa-youtube",
+        "count": 840,
+        "countLabel": "Subscribers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--youtube"
+      }
+    ],
+    "popularNews": {
+      "title": "Reddit CP3",
+      "items": [
+        {
+          "title": "MARCA: Chris Paul Jr. turns heads at Nike Elite 100, showing he's carving out his own path",
+          "excerpt": "Chris Paul Jr. turns heads at Nike Elite 100, showing he's carving out his own path  MARCA",
+          "image": "/alchemists/assets/images/samples/refresh-news-1.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-27",
+          "dateTime": "2026-06-27",
+          "author": {
+            "name": "MARCA",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "redditUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbTRLOWdxWDAyUVgtbTIyZ1FZc3BwbTVVdkJQZS1leE1zRXhENU9NV0tPQS1weU1uRDVIY3U0ZjBxanNrNHRMd1k1RThvRURRVlFQNVp6MG9oX1h6RHIwQjRQRWRNY2prY3dmSlYtQXJPUmVveVlrRnRVT2tzVl9tZ2dGSmwtbndGck9TMldHRS1qTEs3NHJ5dGc3eENscDdHblZlZjBYUzM3WWdDR0wyeGFJNTl5QUdGaERRNGh4Mmk5SFdRREh0ZFBGZHhEWVRhMzkwZzFXOENvNFXSAdsBQVVfeXFMT1hHUVBzcENoZWNvQlBvbDJpR0hmSGo2TDFMb3UxeVV4ci1GdUpPZ2hYWldiWEhtci02WmZHOTEtZHpLcEVkdFpEaGpXWDlPc0M4dEl4blQ1OHFLNERWenZjSHNsZ0tJN041dUhFMkVSMTl1aG1HMzhlcnV4VzFweGlaUDRvclpkVDFHX1NTZ08zQjcxUW52U19GLWp4UDRxM1RVbGlGbWJ6YkJsRXpGNVBDYzhQa0toS0dPX21iZDFPRG1ybWhFQzlBNDRubDFOeXlFN2tiNXVFcDVz?oc=5"
+        },
+        {
+          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti\u2026",
+          "excerpt": "Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Timberwolves (kpPjpLWFEV)  Mshale",
+          "image": "/alchemists/assets/images/samples/refresh-news-2.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-27",
+          "dateTime": "2026-06-27",
+          "author": {
+            "name": "Mshale",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "redditUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HbVlBNlVsY0d0OWYyVU1BQ0NPN2hVNU1nb0pwNnN5NFJhUUJFcF9hVndMY21RYjctalplZDlMcDlDa2N1SUpBb1BWSzN1aGFyTnZRdVZSS3FsVzQ?oc=5"
+        },
+        {
+          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav\u2026",
+          "excerpt": "Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"David was the acting owner of New Orleans\"  Basketball Network",
+          "image": "/alchemists/assets/images/samples/refresh-news-3.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-24",
+          "dateTime": "2026-06-24",
+          "author": {
+            "name": "Basketball Network",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "redditUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDZkYzdsNzg4Rm8zQmZTMFRHZGFxOEdwUmdEaWEtbE14em5fS0htYXVWRUU4RDBsQjljaDF1ZS1hU0kxajBMUkhDM21pTzByLWgweWlWSzNoYlJBa0lOdE55dnVCdmt4MWstdnd3SlNnNnBsM3VfOFFzX25zN2hUS2hqWFEyNlJVcmxkb0dHWUN5QlZnRS1ZSnJmak0tOGx2S2dBZUFzWnotQnFNNUxyRHlYTGVFYXlpNXc?oc=5"
+        },
+        {
+          "title": "Yahoo Sports: Isaiah Thomas facing pushback on Chris Paul-Spurs take",
+          "excerpt": "Isaiah Thomas facing pushback on Chris Paul-Spurs take  Yahoo Sports",
+          "image": "/alchemists/assets/images/samples/refresh-news-4.jpg",
+          "category": "The Team",
+          "categoryClass": "posts__cat-label--cat-1",
+          "date": "2026-06-22",
+          "dateTime": "2026-06-22",
+          "author": {
+            "name": "Yahoo Sports",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "redditUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEg1TDF6SlRfUTREdi1scmJyWVZsYTE5eFlXX0FNN2hSSnFfQTRoRjY0bnFuWm9LczhGMExzZmxVX2pCazlrMS1UUkphUUFwVC1sRWttLVJ3bGZCbnNVVkNtMktJYWk0YUNzRjZJQlNnMVp2R1NjNlotS2tHdF9HTnBDdFNfTFVQa0VJVg?oc=5"
+        }
+      ]
+    },
+    "featuredPlayer": {
+      "teamLogo": "/alchemists/assets/images/logo.png",
+      "photo": "/alchemists/assets/images/samples/widget-featured-player.png",
+      "number": 41,
+      "firstName": "Chris",
+      "lastName": "Paul",
+      "stats": [
+        {
+          "label": "Assists",
+          "value": "9.4",
+          "unit": "AVG"
+        },
+        {
+          "label": "Steals",
+          "value": "2.1",
+          "unit": "AVG"
+        },
+        {
+          "label": "Blocks",
+          "value": "0.2",
+          "unit": "AVG"
+        }
+      ],
+      "footerLabel": "Featured Player"
+    },
+    "lastGameResult": {
+      "title": "Last Game Results",
+      "match": {
+        "date": "",
+        "dateTime": "",
+        "title": "San Antonio Spurs vs ",
+        "scoreLabel": "Final Score",
+        "scoreWinner": 0,
+        "scoreLoser": 0,
+        "team1": {
+          "name": "San Antonio Spurs",
+          "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
+          "desc": "San Antonio Spurs"
+        },
+        "team2": {
+          "name": "",
+          "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
+          "desc": ""
+        },
+        "quarters": {
+          "header": [
+            "Scoreboard",
+            "1",
+            "2",
+            "3",
+            "4",
+            "T"
+          ],
+          "team1Quarters": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "team1Total": 0,
+          "team2Quarters": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "team2Total": 0
+        },
+        "mvp": {
+          "name": "Chris Paul",
+          "photo": "/alchemists/assets/images/samples/stats_player_02.jpg",
+          "position": "Point Guard",
+          "stats": [
+            {
+              "unit": "Pts",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "unit": "Reb",
+              "value": 0,
+              "percent": 0
+            },
+            {
+              "unit": "Ast",
+              "value": 0,
+              "percent": 0
+            }
+          ]
+        },
+        "stats": [
+          {
+            "label": "Assists",
+            "team1Value": 0,
+            "team2Value": 5,
+            "team1Bar": "progress__bar-width-60",
+            "team2Bar": "progress__bar-width-80"
+          },
+          {
+            "label": "Rebounds",
+            "team1Value": 0,
+            "team2Value": 3,
+            "team1Bar": "progress__bar-width-90",
+            "team2Bar": "progress__bar-width-40"
+          },
+          {
+            "label": "Steals",
+            "team1Value": 0,
+            "team2Value": 2,
+            "team1Bar": "progress__bar-width-30",
+            "team2Bar": "progress__bar-width-70"
+          }
+        ]
+      }
+    },
+    "trendingNews": {
+      "title": "Top Trending News",
+      "tabs": [
+        {
+          "label": "Newest",
+          "id": "widget-tabbed-newest",
+          "active": true,
+          "items": [
+            {
+              "title": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals - BasketNews.com",
+              "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-1.jpg",
+              "category": "Playoffs",
+              "categoryClass": "posts__cat-label--cat-3",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 22810,
+              "likes": 3310,
+              "comments": 20
+            },
+            {
+              "title": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d - Basketball Networ\u2026",
+              "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-2.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 7574,
+              "likes": 3074,
+              "comments": 184
+            },
+            {
+              "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special - heavy.com",
+              "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-3.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 16031,
+              "likes": 1531,
+              "comments": 41
+            },
+            {
+              "title": "Reggie Miller argued the Spurs made a mistake by not re-signing Chris Paul - \"Just as an insurance v\u2026",
+              "excerpt": "Reggie Miller argued the Spurs made a mistake by not re-signing Chris Paul - \"Just as an insurance vet\"  Basketball Network",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-4.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 47078,
+              "likes": 2578,
+              "comments": 88
+            },
+            {
+              "title": "Chris Paul landing spots: Lakers, Rockets, Spurs among possible destinations for PG after trade to R\u2026",
+              "excerpt": "Chris Paul landing spots: Lakers, Rockets, Spurs among possible destinations for PG after trade to Raptors  sportingnews.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-5.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 54018,
+              "likes": 4518,
+              "comments": 28
+            }
+          ]
+        },
+        {
+          "label": "Most Commented",
+          "id": "widget-tabbed-commented",
+          "active": false,
+          "items": [
+            {
+              "category": "Playoffs",
+              "title": "New York Islanders are now flying to California for the big game",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+              "category": "The Team",
+              "title": "The Female Division is growing strong after their third game",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+              "category": "The Team",
+              "title": "The Alchemists news coach is bringin a new shooting guard",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+              "category": "The Team",
+              "title": "This Saturday starts the intensive training for the Final",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+              "category": "The Team",
+              "title": "Jake Dribbler Announced that he is retiring next month",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+              "category": "The Team",
+              "title": "Jake Dribbler Announced that he is retiring next month",
+              "date": "August 23rd, 2018",
+              "dateTime": "2016-08-23",
+              "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          ]
+        },
+        {
+          "label": "Popular",
+          "id": "widget-tabbed-popular",
+          "active": false,
+          "items": [
+            {
+              "title": "The Point God is gone but his fingerprints are all over the playoffs - Bright Side Of The Sun",
+              "excerpt": "The Point God is gone but his fingerprints are all over the playoffs  Bright Side Of The Sun",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-1.jpg",
+              "category": "Playoffs",
+              "categoryClass": "posts__cat-label--cat-3",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 54459,
+              "likes": 4959,
+              "comments": 69
+            },
+            {
+              "title": "Chris Paul retires without a ring -- but his career proves he was one of NBA's greatest winners - CB\u2026",
+              "excerpt": "Chris Paul retires without a ring -- but his career proves he was one of NBA's greatest winners  CBS Sports",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-2.jpg",
+              "category": "Playoffs",
+              "categoryClass": "posts__cat-label--cat-3",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 44651,
+              "likes": 5151,
+              "comments": 61
+            },
+            {
+              "title": "The legacy of the 'Point God': Outstanding career with a controversial goodbye - Flashscore.com",
+              "excerpt": "The legacy of the 'Point God': Outstanding career with a controversial goodbye  Flashscore.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-3.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 35438,
+              "likes": 938,
+              "comments": 48
+            },
+            {
+              "title": "Basketball: Two-time Olympic champion Chris Paul signals his retirement - olympics.com",
+              "excerpt": "Basketball: Two-time Olympic champion Chris Paul signals his retirement  olympics.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-4.jpg",
+              "category": "The Team",
+              "categoryClass": "posts__cat-label--cat-1",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 33922,
+              "likes": 4422,
+              "comments": 132
+            },
+            {
+              "title": "How Chris Paul's legacy is embedded in the 2026 NBA playoffs - ESPN",
+              "excerpt": "How Chris Paul's legacy is embedded in the 2026 NBA playoffs  ESPN",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-5.jpg",
+              "category": "Playoffs",
+              "categoryClass": "posts__cat-label--cat-3",
+              "date": "2026-06-28",
+              "dateTime": "2026-06-28",
+              "views": 33780,
+              "likes": 4280,
+              "comments": 190
+            }
+          ]
+        }
+      ]
+    },
+    "advertisement": {
+      "title": "Advertisement",
+      "image": "/alchemists/assets/images/samples/banner.jpg",
+      "url": "https://themeforest.net/item/the-alchemists-sports-news-html-template/19106722?ref=dan_fisher"
+    },
+    "newsletter": {
+      "title": "Our Newsletter",
+      "subtitle": "Subscribe Now!",
+      "description": "Receive the latest news from the team: game reminders, new adquisitions and professional match results.",
+      "placeholder": "Your email address...",
+      "buttonText": "Send"
+    },
+    "nextMatch": {
+      "title": "Top Next Match",
+      "date": "",
+      "dateTime": "",
+      "matchTitle": "San Antonio Spurs vs Opponent",
+      "matchTime": "7:00 PM",
+      "matchPlace": "TBD",
+      "countdownDate": " 19:00:00",
+      "countdownTitle": "Game Countdown",
+      "buttonText": "Buy Tickets Now",
+      "team1": {
+        "name": "San Antonio Spurs",
+        "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
+        "info": "San Antonio Spurs"
+      },
+      "team2": {
+        "name": "Opponent",
+        "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
+        "info": "Opponent"
+      }
+    }
+  },
+  "footer": {
+    "logo": {
+      "src": "/alchemists/assets/images/logo.png",
+      "alt": "Alchemists"
+    },
+    "contactInfo": {
+      "title": "Contact Info",
+      "description": "The ultimate fan hub for Chris Paul \u2014 celebrating 20 years of Point God excellence. Stats, news, highlights, and legacy all in one place.",
+      "items": [
+        {
+          "icon": "basketball",
+          "heading": "Contact",
+          "linkText": "victormakuo2002@gmail.com",
+          "linkHref": "mailto:victormakuo2002@gmail.com"
+        },
+        {
+          "icon": "jersey",
+          "heading": "Stay Connected",
+          "linkText": "victormakuo2002@gmail.com",
+          "linkHref": "mailto:victormakuo2002@gmail.com"
+        }
+      ],
+      "social": [
+        {
+          "platform": "Facebook",
+          "icon": "fab fa-facebook",
+          "url": "/alchemists/index.html#"
+        },
+        {
+          "platform": "Twitter",
+          "icon": "fab fa-twitter",
+          "url": "/alchemists/index.html#"
+        },
+        {
+          "platform": "Instagram",
+          "icon": "fab fa-instagram",
+          "url": "/alchemists/index.html#"
+        }
+      ]
+    },
+    "popularNews": {
+      "title": "Top Reddit Post",
+      "items": [
+        {
+          "category": "The Team",
+          "title": "MARCA: Chris Paul Jr. turns heads at Nike Elite 100, showing he's carving out his own path",
+          "date": "2026-06-27"
+        },
+        {
+          "category": "The Team",
+          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti\u2026",
+          "date": "2026-06-27"
+        },
+        {
+          "category": "The Team",
+          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav\u2026",
+          "date": "2026-06-24"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery Widget",
+      "images": [
+        "/alchemists/assets/images/samples/instagram-img1.jpg",
+        "/alchemists/assets/images/samples/instagram-img2.jpg",
+        "/alchemists/assets/images/samples/instagram-img3.jpg",
+        "/alchemists/assets/images/samples/instagram-img4.jpg",
+        "/alchemists/assets/images/samples/instagram-img5.jpg",
+        "/alchemists/assets/images/samples/instagram-img6.jpg"
+      ],
+      "button": {
+        "text": "Follow Our Profile",
+        "url": "/alchemists/index.html#"
+      }
+    },
+    "nav": [
+      {
+        "label": "Home",
+        "url": "/alchemists/index.html"
+      },
+      {
+        "label": "Features",
+        "url": "/alchemists/features-shortcodes.html"
+      },
+      {
+        "label": "Statistics",
+        "url": "/alchemists/team-standings.html"
+      },
+      {
+        "label": "The Team",
+        "url": "/alchemists/team-overview.html"
+      },
+      {
+        "label": "News",
+        "url": "/alchemists/blog-3.html"
+      },
+      {
+        "label": "Shop",
+        "url": "/alchemists/shop-grid.html"
+      }
+    ]
+  },
+  "pushyPanel": {
+    "logo": "/alchemists/assets/images/logo.png",
+    "posts": [
+      {
+        "category": "The Team",
+        "title": "CP3 Masterclass Lifts Spurs Past Warriors in OT Thriller",
+        "date": "2026-06-27",
+        "excerpt": "Chris Paul dropped 24 points and 13 assists as San Antonio edged Golden State 118-112 in overtime, showcasing the veteran leadership that defines his legacy.",
+        "author": {
+          "name": "Victor Makuo",
+          "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+        },
+        "likes": 639,
+        "comments": 68
+      },
+      {
+        "category": "Playoffs",
+        "title": "Paul's Leadership Key to Wembanyama's Development",
+        "date": "2026-06-25",
+        "excerpt": "Victor Wembanyama credits Chris Paul's mentorship for his rapid growth, calling the veteran point guard 'the ultimate teacher' on and off the court.",
+        "author": {
+          "name": "Victor Makuo",
+          "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+        },
+        "likes": 459,
+        "comments": 79
+      }
+    ],
+    "tagCloud": {
+      "title": "Tag Cloud",
+      "tags": [
+        "PLAYOFFS",
+        "ALCHEMISTS",
+        "INJURIES",
+        "TEAM",
+        "INCORPORATIONS",
+        "UNIFORMS",
+        "CHAMPIONS",
+        "PROFESSIONAL",
+        "COACH",
+        "STADIUM",
+        "NEWS",
+        "PLAYERS",
+        "WOMEN DIVISION",
+        "AWARDS"
+      ]
+    },
+    "banner": {
+      "image": "/alchemists/assets/images/samples/banner.jpg",
+      "url": "/alchemists/index.html#"
+    }
+  },
+  "modals": {
+    "register": {
+      "title": "Register Now!",
+      "fields": [
+        {
+          "type": "email",
+          "placeholder": "Enter your email address..."
+        },
+        {
+          "type": "password",
+          "placeholder": "Enter your password..."
+        },
+        {
+          "type": "password",
+          "placeholder": "Repeat your password..."
+        }
+      ],
+      "button": {
+        "text": "Create Your Account",
+        "url": "/alchemists/shop-account.html"
+      },
+      "note": "You'll receive a confirmation email in your inbox with a link to activate your account."
+    },
+    "login": {
+      "title": "Login to your account",
+      "fields": [
+        {
+          "type": "email",
+          "placeholder": "Enter your email address..."
+        },
+        {
+          "type": "password",
+          "placeholder": "Enter your password..."
+        }
+      ],
+      "rememberMe": true,
+      "forgotPassword": {
+        "url": "/alchemists/index.html#"
+      },
+      "button": {
+        "text": "Enter to your account",
+        "url": "/alchemists/shop-account.html"
+      },
+      "socialLogin": {
+        "heading": "or Login with your social profile:",
+        "buttons": [
+          {
+            "platform": "Facebook",
+            "icon": "fab fa-facebook",
+            "url": "/alchemists/index.html#"
+          },
+          {
+            "platform": "Twitter",
+            "icon": "fab fa-twitter",
+            "url": "/alchemists/index.html#"
+          },
+          {
+            "platform": "Google",
+            "icon": "fab fa-google",
+            "url": "/alchemists/index.html#"
+          }
+        ]
+      }
+    }
+  }
+}

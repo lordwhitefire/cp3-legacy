@@ -1,0 +1,1115 @@
+{
+  "site": {
+    "name": "Alchemists",
+    "tagline": "Elric Bros School",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "/alchemists/assets/images/logo.png",
+    "url": "/alchemists/index.html",
+    "favicon": ""
+  },
+
+  "header": {
+    "topBar": {
+      "account": {
+        "label": "Your Account",
+        "url": "/alchemists/index.html#"
+      },
+      "wishlist": {
+        "label": "Wishlist",
+        "count": 8,
+        "url": "/alchemists/shop-wishlist.html"
+      },
+      "currency": {
+        "selected": "USD",
+        "options": ["USD", "EUR", "GBP"]
+      },
+      "language": {
+        "selected": "EN",
+        "options": ["English", "Spanish", "French", "German"]
+      },
+      "logout": {
+        "label": "Logout",
+        "url": "/alchemists/index.html#"
+      }
+    },
+    "infoBlocks": [
+      {
+        "id": "contact-primary",
+        "icon": "jersey",
+        "heading": "Join Our Team!",
+        "linkText": "victormark2002@gmail.com",
+        "linkHref": "mailto:victormark2002@gmail.com"
+      },
+      {
+        "id": "contact-secondary",
+        "icon": "basketball",
+        "heading": "Contact Us",
+        "linkText": "victormark2002@gmail.com",
+        "linkHref": "mailto:victormark2002@gmail.com"
+      },
+      {
+        "id": "shopping-cart",
+        "heading": "Your Bag (8 items)",
+        "total": "$256,30",
+        "items": [
+          {
+            "category": "Sneakers",
+            "name": "Sundown Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-1.jpg",
+            "price": "$28.00",
+            "quantity": 2,
+            "rating": 4
+          },
+          {
+            "category": "Sneakers",
+            "name": "Atlantik Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-2.jpg",
+            "price": "$30.00",
+            "quantity": 4,
+            "rating": 5
+          },
+          {
+            "category": "Sneakers",
+            "name": "Aquarium Sneaker",
+            "image": "/alchemists/assets/images/samples/cart-sm-3.jpg",
+            "price": "$28.00",
+            "quantity": 1,
+            "rating": 3
+          }
+        ],
+        "subtotal": "$282.00",
+        "buttons": [
+          { "label": "Go to Cart", "url": "/alchemists/shop-cart.html", "style": "btn-default" },
+          { "label": "Checkout", "url": "/alchemists/shop-checkout.html", "style": "btn-primary-inverse" }
+        ]
+      }
+    ],
+    "navigation": {
+      "mobileLogo": {
+        "src": "/alchemists/assets/images/logo.png",
+        "alt": "Alchemists"
+      },
+      "items": [
+        {
+          "label": "Home",
+          "url": "/alchemists/index.html",
+          "active": true,
+          "children": [
+            { "label": "Home - version 1", "url": "/alchemists/index.html", "active": true },
+            { "label": "Home - version 2", "url": "/alchemists/index-2.html", "active": false },
+            { "label": "Home - version 3", "url": "/alchemists/index-3.html", "active": false }
+          ]
+        },
+        {
+          "label": "Features",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "megaMenu": {
+            "columns": [
+              {
+                "title": "Features",
+                "links": [
+                  { "label": "Shortcodes", "url": "/alchemists/features-shortcodes.html" },
+                  { "label": "Typography", "url": "/alchemists/features-typography.html" },
+                  { "label": "Widgets - Blog", "url": "/alchemists/features-widgets-blog.html" },
+                  { "label": "Widgets - Shop", "url": "/alchemists/features-widgets-shop.html" },
+                  { "label": "Widgets - Sports", "url": "/alchemists/features-widgets-sports.html" },
+                  { "label": "404 Error Page", "url": "/alchemists/features-404.html" },
+                  { "label": "Search Results", "url": "/alchemists/features-search-results.html" },
+                  { "label": "Contact Us", "url": "/alchemists/page-contacts.html" }
+                ]
+              },
+              {
+                "title": "Other Pages",
+                "links": [
+                  { "label": "Sponsors", "url": "/alchemists/page-sponsors.html" },
+                  { "label": "FAQs", "url": "/alchemists/page-faqs.html" },
+                  { "label": "Staff Member", "url": "/alchemists/staff-single.html" },
+                  { "label": "Tournament", "url": "/alchemists/event-tournament.html" },
+                  { "label": "Shop Page", "url": "/alchemists/shop-list.html" },
+                  { "label": "Shopping Cart", "url": "/alchemists/shop-cart.html" },
+                  { "label": "Wishlist", "url": "/alchemists/shop-wishlist.html" },
+                  { "label": "Checkout", "url": "/alchemists/shop-checkout.html" }
+                ]
+              },
+              {
+                "type": "featured-post",
+                "category": "The Team",
+                "title": "The team is starting a new power breakfast regimen",
+                "date": "August 23rd, 2017",
+                "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "author": {
+                  "name": "James Spiegel",
+                  "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+                },
+                "likes": 530,
+                "comments": 18
+              },
+              {
+                "type": "simple-posts",
+                "items": [
+                  {
+                    "category": "The Team",
+                    "title": "The new eco friendly stadium won a Leafy Award in 2016",
+                    "date": "August 21st, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img3-xs.jpg"
+                  },
+                  {
+                    "category": "Injuries",
+                    "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+                    "date": "August 23rd, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img1-xs.jpg"
+                  },
+                  {
+                    "category": "The Team",
+                    "title": "The team is starting a new power breakfast regimen",
+                    "date": "August 21st, 2016",
+                    "image": "/alchemists/assets/images/samples/post-img4-xs.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "The Team",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "children": [
+            {
+              "label": "Team",
+              "url": "/alchemists/team-overview.html",
+              "children": [
+                { "label": "Overview", "url": "/alchemists/team-overview.html" },
+                {
+                  "label": "Roster", "url": "/alchemists/team-roster-2.html",
+                  "children": [
+                    { "label": "Roster - 1", "url": "/alchemists/team-roster-1.html" },
+                    { "label": "Roster - 2", "url": "/alchemists/team-roster-2.html" },
+                    { "label": "Roster - 3", "url": "/alchemists/team-roster-3.html" }
+                  ]
+                },
+                { "label": "Standings", "url": "/alchemists/team-standings.html" },
+                { "label": "Latest Results", "url": "/alchemists/team-last-results.html" },
+                { "label": "Schedule", "url": "/alchemists/team-schedule.html" },
+                {
+                  "label": "Gallery", "url": "/alchemists/team-gallery.html",
+                  "children": [
+                    { "label": "Single Album", "url": "/alchemists/team-gallery-album.html" }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Player",
+              "url": "/alchemists/player-overview.html",
+              "children": [
+                { "label": "Overview", "url": "/alchemists/player-overview.html" },
+                { "label": "Full Statistics", "url": "/alchemists/player-stats.html" },
+                { "label": "Biography", "url": "/alchemists/player-bio.html" },
+                { "label": "Related News", "url": "/alchemists/player-news.html" },
+                { "label": "Gallery", "url": "/alchemists/player-gallery.html" }
+              ]
+            },
+            { "label": "Staff Member", "url": "/alchemists/staff-single.html" },
+            {
+              "label": "Event",
+              "url": "/alchemists/event-overview.html",
+              "children": [
+                { "label": "Overview", "url": "/alchemists/event-overview.html" },
+                { "label": "Box Score", "url": "/alchemists/event-box-score.html" },
+                { "label": "Play-by-Play", "url": "/alchemists/event-play-by-play.html" },
+                { "label": "Team Stats", "url": "/alchemists/event-team-stats.html" },
+                { "label": "News Recap", "url": "/alchemists/event-news-recap.html" },
+                { "label": "Videos", "url": "/alchemists/event-videos.html" }
+              ]
+            },
+            { "label": "Tournament", "url": "/alchemists/event-tournament.html" }
+          ]
+        },
+        {
+          "label": "News",
+          "url": "/alchemists/index.html#",
+          "active": false,
+          "children": [
+            { "label": "News - version 1", "url": "/alchemists/blog-1.html" },
+            { "label": "News - version 2", "url": "/alchemists/blog-2.html" },
+            { "label": "News - version 3", "url": "/alchemists/blog-3.html" },
+            { "label": "News - version 4", "url": "/alchemists/blog-4.html" },
+            {
+              "label": "Post",
+              "url": "/alchemists/index.html#",
+              "children": [
+                { "label": "Single Post - version 1", "url": "/alchemists/blog-post-1.html" },
+                { "label": "Single Post - version 2", "url": "/alchemists/blog-post-2.html" },
+                { "label": "Single Post - version 3", "url": "/alchemists/blog-post-3.html" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Shop",
+          "url": "/alchemists/shop-grid.html",
+          "active": false,
+          "children": [
+            { "label": "Shop - Grid", "url": "/alchemists/shop-grid.html" },
+            { "label": "Shop - List", "url": "/alchemists/shop-list.html" },
+            { "label": "Shop - Full Width", "url": "/alchemists/shop-fullwidth.html" },
+            { "label": "Single Product", "url": "/alchemists/shop-product.html" },
+            { "label": "Shopping Cart", "url": "/alchemists/shop-cart.html" },
+            { "label": "Checkout", "url": "/alchemists/shop-checkout.html" },
+            { "label": "Wishlist", "url": "/alchemists/shop-wishlist.html" },
+            { "label": "Login", "url": "/alchemists/shop-login.html" },
+            { "label": "Account", "url": "/alchemists/shop-account.html" }
+          ]
+        }
+      ],
+      "socialLinks": {
+        "inline": [
+          { "platform": "Facebook", "icon": "fab fa-facebook" },
+          { "platform": "Twitter", "icon": "fab fa-twitter" },
+          { "platform": "Instagram", "icon": "fab fa-instagram" }
+        ],
+        "list": [
+          { "platform": "Facebook", "icon": "fab fa-facebook" },
+          { "platform": "Twitter", "icon": "fab fa-twitter" },
+          { "platform": "Instagram", "icon": "fab fa-instagram" }
+        ]
+      }
+    },
+    "searchPlaceholder": "Enter your search here..."
+  },
+
+  "mobileHeader": {
+    "logo": {
+      "src": "/alchemists/assets/images/logo.png",
+      "alt": "Alchemists"
+    },
+    "searchPlaceholder": "Enter your search here..."
+  },
+
+  "heroUnit": {
+    "subtitle": "Elric Bros School",
+    "title": "The",
+    "titleHighlight": "Alchemists",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore .",
+    "button": {
+      "text": "Read More",
+      "url": "/alchemists/index.html#"
+    },
+    "image": "/alchemists/assets/images/samples/header_player.png"
+  },
+
+  "featuredCarousel": {
+    "slides": [
+      {
+        "id": "slide-1",
+        "category": "The Team",
+        "title": "Checkout the new ride of our best player of the season",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-3.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-2",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-3",
+        "category": "The Team",
+        "title": "Alchemists women team tryouts will start in January",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-2.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-4",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-5",
+        "category": "The Team",
+        "title": "Alchemists women team tryouts will start in January",
+        "date": "June 8th, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-2.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-6",
+        "category": "The Team",
+        "title": "Checkout the new ride of our best player of the season",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-3.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-7",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-8",
+        "category": "The Team",
+        "title": "Alchemists women team tryouts will start in January",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-2.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-9",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-10",
+        "category": "The Team",
+        "title": "Alchemists women team tryouts will start in January",
+        "date": "June 8th, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-2.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-11",
+        "category": "The Team",
+        "title": "Checkout the new ride of our best player of the season",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-3.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-12",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-13",
+        "category": "The Team",
+        "title": "Alchemists women team tryouts will start in January",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-2.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "id": "slide-14",
+        "category": "The Team",
+        "title": "All the players are taking a team trip this summer",
+        "date": "August 23rd, 2018",
+        "dateTime": "2017-08-23",
+        "image": "/alchemists/assets/images/samples/featured-carousel-1.jpg",
+        "views": 2369,
+        "likes": 530,
+        "comments": 18
+      }
+    ]
+  },
+
+  "mainContent": {
+    "featuredNews": {
+      "title": "Featured News",
+      "categories": [
+        { "label": "All", "slug": "all" },
+        { "label": "The Team", "slug": "posts__item--category-1" },
+        { "label": "Playoffs", "slug": "posts__item--category-3" },
+        { "label": "Injuries", "slug": "posts__item--category-2" }
+      ],
+      "slides": [
+        {
+          "category": "Injuries",
+          "categoryClass": "posts__item--category-2",
+          "title": "Jessica Valentine has a ",
+          "titleHighlight": "sprained ankle",
+          "titleEnd": " and won't be in the Final",
+          "image": "/alchemists/assets/images/samples/post-slide5.jpg",
+          "author": {
+            "name": "Jesse Stevens",
+            "avatar": "/alchemists/assets/images/samples/avatar-4.jpg"
+          },
+          "date": "April 12th, 2018",
+          "dateTime": "2017-08-28"
+        },
+        {
+          "category": "The Team",
+          "categoryClass": "posts__item--category-1",
+          "title": "The Planettroters will ",
+          "titleHighlight": "perform this May 4th",
+          "titleEnd": " at Madison Cube",
+          "image": "/alchemists/assets/images/samples/post-slide1.jpg",
+          "author": {
+            "name": "Jesse Stevens",
+            "avatar": "/alchemists/assets/images/samples/avatar-4.jpg"
+          },
+          "date": "August 28th, 2018",
+          "dateTime": "2017-08-28"
+        },
+        {
+          "category": "Playoffs",
+          "categoryClass": "posts__item--category-3",
+          "title": "New York is preparing all ",
+          "titleHighlight": "for the Playoffs Final",
+          "titleEnd": " next December",
+          "image": "/alchemists/assets/images/samples/post-slide2.jpg",
+          "author": {
+            "name": "James Spiegel",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "June 28th, 2018",
+          "dateTime": "2017-08-28"
+        },
+        {
+          "category": "The Team",
+          "categoryClass": "posts__item--category-1",
+          "title": "The new eco friendly ",
+          "titleHighlight": "stadium won a Leafy",
+          "titleEnd": " Award in 2016",
+          "image": "/alchemists/assets/images/samples/post-slide3.jpg",
+          "author": {
+            "name": "James Spiegel",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "June 28th, 2018",
+          "dateTime": "2017-08-28"
+        },
+        {
+          "category": "Playoffs",
+          "categoryClass": "posts__item--category-3",
+          "title": "New York Islanders are ",
+          "titleHighlight": "now flying to California",
+          "titleEnd": " for the big game",
+          "image": "/alchemists/assets/images/samples/post-slide4.jpg",
+          "author": {
+            "name": "James Spiegel",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
+          },
+          "date": "June 28th, 2018",
+          "dateTime": "2017-08-28"
+        },
+        {
+          "category": "Playoffs",
+          "categoryClass": "posts__item--category-3",
+          "title": "Jeremy Rittersen was ",
+          "titleHighlight": "called to be",
+          "titleEnd": " in the National Team",
+          "image": "/alchemists/assets/images/samples/post-slide6.jpg",
+          "author": {
+            "name": "Jessica Hoops",
+            "avatar": "/alchemists/assets/images/samples/avatar-2.jpg"
+          },
+          "date": "May 24th, 2018",
+          "dateTime": "2017-08-28"
+        }
+      ]
+    },
+
+    "postCards": {
+      "row1": [
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img6.jpg",
+          "date": "August 23rd, 2018",
+          "dateTime": "2016-08-23",
+          "title": "Michael Bryan was chosen again as best player with 45 points",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+          "author": { "name": "Jesse Stevens", "avatar": "/alchemists/assets/images/samples/avatar-4.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img3.jpg",
+          "date": "August 23rd, 2018",
+          "dateTime": "2016-08-23",
+          "title": "The new eco friendly stadium won a Leafy Award in 2016",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+          "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        }
+      ],
+      "row2": {
+        "card": {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img5.jpg",
+          "date": "August 23rd, 2016",
+          "dateTime": "2016-08-23",
+          "title": "The Alchemists team is appearing in L.A. Beach for charity",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+          "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        "simpleList": [
+          {
+            "category": "The Team",
+            "title": "Trainings are getting really hard reaching the final",
+            "date": "August 23rd, 2018",
+            "dateTime": "2017-08-23",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore..."
+          },
+          {
+            "category": "Playoffs",
+            "title": "The victory againts The Sharks brings us closer to the Final",
+            "date": "February 2nd, 2018",
+            "dateTime": "2017-08-23",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore..."
+          },
+          {
+            "category": "Playoffs",
+            "title": "The next match against The Clovers will be this Friday",
+            "date": "November 27th, 2017",
+            "dateTime": "2017-08-23",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore..."
+          }
+        ]
+      },
+      "mainBanner": {
+        "image": "/alchemists/assets/images/samples/main-news-banner__img.png",
+        "category": "The Team",
+        "title": "Take a look at the brand ",
+        "titleHighlight": "New Uniforms",
+        "titleEnd": " for next season",
+        "date": "August 23rd, 2017",
+        "dateTime": "2017-08-23",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor.",
+        "button": { "text": "Read More", "url": "/alchemists/index.html#" }
+      },
+      "row3": [
+        {
+          "category": "Injuries",
+          "image": "/alchemists/assets/images/samples/post-img1.jpg",
+          "date": "August 23rd, 2018",
+          "dateTime": "2016-08-23",
+          "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+          "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img7.jpg",
+          "date": "July 12th, 2018",
+          "dateTime": "2016-08-23",
+          "title": "Jay Rorks is only 24 points away from breaking the record",
+          "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img8.jpg",
+          "date": "February 24th, 2018",
+          "dateTime": "2016-08-23",
+          "title": "The team is starting a new power breakfast regimen",
+          "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img2.jpg",
+          "date": "January 2nd, 2018",
+          "dateTime": "2016-08-23",
+          "title": "Cheerleader tryouts will start next Friday at 5pm",
+          "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        }
+      ]
+    },
+
+    "latestNews": {
+      "title": "Latest News",
+      "seeAllUrl": "/alchemists/index.html#",
+      "items": [
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img9-m.jpg",
+          "title": "The team is taking a summer vacation on Woody Valley",
+          "date": "August 17th, 2018",
+          "dateTime": "2016-08-17",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img10-m.jpg",
+          "title": "Jeremy Rittersen was called to be in the National Team",
+          "date": "August 12th, 2018",
+          "dateTime": "2016-08-17",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img11-m.jpg",
+          "title": "Alchemists New Stadium is gonna be ready in September 2017",
+          "date": "July 14th, 2018",
+          "dateTime": "2016-08-17",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img14-m.jpg",
+          "title": "The Championship Final will be be played in San Francisco",
+          "date": "June 2nd, 2018",
+          "dateTime": "2016-08-17",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+          "views": 2369,
+          "likes": 530,
+          "comments": 18
+        }
+      ]
+    },
+
+    "standings": {
+      "title": "CP3 Milestone Seasons",
+      "seeAllUrl": "/alchemists/index.html#",
+      "headers": ["Season", "PPG", "APG", "RPG"],
+      "seasons": [
+        { "label": "2005-06 · Rookie", "team": "New Orleans Hornets", "ppg": "16.1", "apg": "7.8", "rpg": "5.1" },
+        { "label": "2006-07 · Sophomore", "team": "New Orleans Hornets", "ppg": "17.3", "apg": "8.9", "rpg": "4.4" },
+        { "label": "2007-08 · MVP Race", "team": "New Orleans Hornets", "ppg": "21.1", "apg": "11.6", "rpg": "4.0" },
+        { "label": "2008-09 · Career High PPG", "team": "New Orleans Hornets", "ppg": "22.8", "apg": "11.0", "rpg": "5.5" },
+        { "label": "2011-12 · Traded to LAC", "team": "LA Clippers", "ppg": "19.8", "apg": "9.1", "rpg": "3.6" },
+        { "label": "2013-14 · All-Star MVP", "team": "LA Clippers", "ppg": "19.1", "apg": "10.7", "rpg": "4.3" },
+        { "label": "2015-16 · Clippers Prime", "team": "LA Clippers", "ppg": "19.5", "apg": "10.0", "rpg": "4.2" },
+        { "label": "2017-18 · Rockets 65-17", "team": "Houston Rockets", "ppg": "18.6", "apg": "7.9", "rpg": "5.4" },
+        { "label": "2019-20 · OKC Comeback", "team": "Oklahoma City Thunder", "ppg": "17.6", "apg": "6.7", "rpg": "5.0" },
+        { "label": "2020-21 · NBA Finals", "team": "Phoenix Suns", "ppg": "16.4", "apg": "8.9", "rpg": "4.5" },
+        { "label": "2021-22 · Assists Leader", "team": "Phoenix Suns", "ppg": "14.7", "apg": "10.8", "rpg": "4.4" },
+        { "label": "Career · 19 Seasons", "team": "17.5 PPG · 9.4 APG · 4.5 RPG", "ppg": "17.5", "apg": "9.4", "rpg": "4.5" }
+      ]
+    },
+
+    "socialWidget": [
+      {
+        "platform": "instagram",
+        "title": "Follow @CP3 on Instagram",
+        "icon": "fab fa-instagram",
+        "count": null,
+        "countLabel": "Followers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--instagram"
+      },
+      {
+        "platform": "twitter",
+        "title": "Follow @CP3 on Twitter",
+        "icon": "fab fa-twitter",
+        "count": null,
+        "countLabel": "Followers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--twitter"
+      },
+      {
+        "platform": "youtube",
+        "title": "Subscribe on YouTube",
+        "icon": "fab fa-youtube",
+        "count": 840,
+        "countLabel": "Subscribers",
+        "url": "/alchemists/index.html#",
+        "counterClass": "btn-social-counter--youtube"
+      }
+    ],
+
+    "popularNews": {
+      "title": "Reddit CP3",
+      "items": [
+        {
+          "category": "Injuries",
+          "image": "/alchemists/assets/images/samples/post-img1-xs.jpg",
+          "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+          "date": "August 23rd, 2018",
+          "dateTime": "2016-08-23"
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img2-xs.jpg",
+          "title": "Jay Rorks is only 24 points away from breaking the record",
+          "date": "August 22nd, 2018",
+          "dateTime": "2016-08-23"
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img3-xs.jpg",
+          "title": "The new eco friendly stadium won a Leafy Award in 2016",
+          "date": "June 8th, 2018",
+          "dateTime": "2016-08-23"
+        },
+        {
+          "category": "The Team",
+          "image": "/alchemists/assets/images/samples/post-img4-xs.jpg",
+          "title": "The team is starting a new power breakfast regimen",
+          "date": "May 12th, 2018",
+          "dateTime": "2016-08-23"
+        }
+      ]
+    },
+
+    "featuredPlayer": {
+      "teamLogo": "/alchemists/assets/images/logo.png",
+      "photo": "/alchemists/assets/images/samples/widget-featured-player.png",
+      "number": 41,
+      "firstName": "Chris",
+      "lastName": "Paul",
+      "stats": [
+        { "label": "Assists", "value": "9.4", "unit": "AVG" },
+        { "label": "Steals", "value": "2.1", "unit": "AVG" },
+        { "label": "Blocks", "value": "0.2", "unit": "AVG" }
+      ],
+      "footerLabel": "Featured Player"
+    },
+
+    "lastGameResult": {
+      "title": "Last Game Results",
+      "match": {
+        "title": "Championship Quarter Finals",
+        "date": "Saturday, March 24th, 2016",
+        "dateTime": "2016-03-24",
+        "team1": {
+          "logo": "/alchemists/assets/images/samples/logos/alchemists_last_game_results_small.png",
+          "name": "Alchemists",
+          "desc": "Elric Bros School"
+        },
+        "team2": {
+          "logo": "/alchemists/assets/images/samples/logos/sharks_last_game_results_small.png",
+          "name": "Sharks",
+          "desc": "Marine College"
+        },
+        "scoreWinner": 107,
+        "scoreLoser": 102,
+        "scoreLabel": "Final Score",
+        "quarters": {
+          "header": ["Scoreboard", "1", "2", "3", "4", "T"],
+          "team1Quarters": [30, 31, 22, 24],
+          "team1Total": 107,
+          "team2Quarters": [22, 34, 20, 26],
+          "team2Total": 102
+        },
+        "stats": [
+          {
+            "label": "Assists",
+            "team1Value": 22,
+            "team1Bar": "progress__bar-width-60",
+            "team2Bar": "progress__bar-width-80",
+            "team2Value": 36
+          },
+          {
+            "label": "Rebounds",
+            "team1Value": 35,
+            "team1Bar": "progress__bar-width-90",
+            "team2Bar": "progress__bar-width-40",
+            "team2Value": 18
+          },
+          {
+            "label": "Steals",
+            "team1Value": 14,
+            "team1Bar": "progress__bar-width-30",
+            "team2Bar": "progress__bar-width-70",
+            "team2Value": 24
+          }
+        ],
+        "mvp": {
+          "photo": "/alchemists/assets/images/samples/stats_player_02.jpg",
+          "name": "Mark Stevens",
+          "position": "1st Power Forward",
+          "stats": [
+            { "value": 36, "unit": "Pts", "percent": 80 },
+            { "value": 18, "unit": "Reb", "percent": 60 },
+            { "value": 29, "unit": "Ast", "percent": 70 }
+          ]
+        }
+      }
+    },
+
+    "trendingNews": {
+      "title": "Top Trending News",
+      "tabs": [
+        {
+          "label": "Newest",
+          "id": "widget-tabbed-newest",
+          "active": true,
+          "items": [
+            { "category": "The Team", "title": "Jake Dribbler Announced that he is retiring next month", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "The Alchemists news coach is bringin a new shooting guard", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "This Saturday starts the intensive training for the Final", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "Playoffs", "title": "New York Islanders are now flying to California for the big game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "The Female Division is growing strong after their third game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
+          ]
+        },
+        {
+          "label": "Most Commented",
+          "id": "widget-tabbed-commented",
+          "active": false,
+          "items": [
+            { "category": "Playoffs", "title": "New York Islanders are now flying to California for the big game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "The Female Division is growing strong after their third game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "The Alchemists news coach is bringin a new shooting guard", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "This Saturday starts the intensive training for the Final", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "Jake Dribbler Announced that he is retiring next month", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "Jake Dribbler Announced that he is retiring next month", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
+          ]
+        },
+        {
+          "label": "Popular",
+          "id": "widget-tabbed-popular",
+          "active": false,
+          "items": [
+            { "category": "The Team", "title": "The Alchemists news coach is bringin a new shooting guard", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "This Saturday starts the intensive training for the Final", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "Jake Dribbler Announced that he is retiring next month", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "The Team", "title": "The Female Division is growing strong after their third game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+            { "category": "Playoffs", "title": "New York Islanders are now flying to California for the big game", "date": "August 23rd, 2018", "dateTime": "2016-08-23", "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
+          ]
+        }
+      ]
+    },
+
+    "advertisement": {
+      "title": "Advertisement",
+      "image": "/alchemists/assets/images/samples/banner.jpg",
+      "url": "https://themeforest.net/item/the-alchemists-sports-news-html-template/19106722?ref=dan_fisher"
+    },
+
+    "newsletter": {
+      "title": "Our Newsletter",
+      "subtitle": "Subscribe Now!",
+      "description": "Receive the latest news from the team: game reminders, new adquisitions and professional match results.",
+      "placeholder": "Your email address...",
+      "buttonText": "Send"
+    },
+
+    "nextMatch": {
+      "title": "Top Next Match",
+      "matchTitle": "Championship Quarter Finals",
+      "date": "Saturday, October 17th, 2018",
+      "dateTime": "2017-05-17",
+      "team1": {
+        "logo": "/alchemists/assets/images/samples/logo-alchemists--sm.png",
+        "name": "Alchemists",
+        "info": "Elric Bros School"
+      },
+      "team2": {
+        "logo": "/alchemists/assets/images/samples/logo-l-clovers--sm.png",
+        "name": "Clovers",
+        "info": "ST Paddy's Institute"
+      },
+      "matchTime": "8:00 PM",
+      "matchPlace": "Madison Cube Stadium",
+      "buttonText": "Buy Tickets Now",
+      "countdownTitle": "Game Countdown",
+      "countdownDate": "June 18, 2022 21:00:00"
+    }
+  },
+
+  "footer": {
+    "logo": {
+      "src": "/alchemists/assets/images/logo.png",
+      "alt": "Alchemists"
+    },
+    "contactInfo": {
+      "title": "Contact Info",
+      "description": "The ultimate fan hub for Chris Paul — celebrating 20 years of Point God excellence. Stats, news, highlights, and legacy all in one place.",
+      "items": [
+        {
+          "icon": "basketball",
+          "heading": "Contact",
+          "linkText": "victormakuo2002@gmail.com",
+          "linkHref": "mailto:victormakuo2002@gmail.com"
+        },
+        {
+          "icon": "jersey",
+          "heading": "Stay Connected",
+          "linkText": "victormakuo2002@gmail.com",
+          "linkHref": "mailto:victormakuo2002@gmail.com"
+        }
+      ],
+      "social": [
+        { "platform": "Facebook", "icon": "fab fa-facebook", "url": "/alchemists/index.html#" },
+        { "platform": "Twitter", "icon": "fab fa-twitter", "url": "/alchemists/index.html#" },
+        { "platform": "Instagram", "icon": "fab fa-instagram", "url": "/alchemists/index.html#" }
+      ]
+    },
+    "popularNews": {
+      "title": "Top Reddit Post",
+      "items": [
+        {
+          "category": "Injuries",
+          "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+          "date": "August 23rd, 2018",
+          "dateTime": "2017-08-23"
+        },
+        {
+          "category": "The Team",
+          "title": "Jay Rorks is only 24 points away from breaking the record",
+          "date": "August 22nd, 2018",
+          "dateTime": "2017-08-23"
+        },
+        {
+          "category": "The Team",
+          "title": "The new eco friendly stadium won a Leafy Award in 2016",
+          "date": "June 8th, 2018",
+          "dateTime": "2017-08-23"
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery Widget",
+      "images": [
+        "/alchemists/assets/images/samples/instagram-img1.jpg",
+        "/alchemists/assets/images/samples/instagram-img2.jpg",
+        "/alchemists/assets/images/samples/instagram-img3.jpg",
+        "/alchemists/assets/images/samples/instagram-img4.jpg",
+        "/alchemists/assets/images/samples/instagram-img5.jpg",
+        "/alchemists/assets/images/samples/instagram-img6.jpg"
+      ],
+      "button": {
+        "text": "Follow Our Profile",
+        "url": "/alchemists/index.html#"
+      }
+    },
+    "nav": [
+      { "label": "Home", "url": "/alchemists/index.html" },
+      { "label": "Features", "url": "/alchemists/features-shortcodes.html" },
+      { "label": "Statistics", "url": "/alchemists/team-standings.html" },
+      { "label": "The Team", "url": "/alchemists/team-overview.html" },
+      { "label": "News", "url": "/alchemists/blog-3.html" },
+      { "label": "Shop", "url": "/alchemists/shop-grid.html" }
+    ]
+  },
+
+  "pushyPanel": {
+    "logo": "/alchemists/assets/images/logo.png",
+    "posts": [
+      {
+        "category": "The Team",
+        "title": "The new eco friendly stadium won a Leafy Award in 2016",
+        "date": "August 23rd, 2018",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+        "author": { "name": "James Spiegel", "avatar": "/alchemists/assets/images/samples/avatar-1.jpg" },
+        "likes": 530,
+        "comments": 18
+      },
+      {
+        "category": "Injuries",
+        "title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+        "date": "August 23rd, 2018",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+        "author": { "name": "Jessica Hoops", "avatar": "/alchemists/assets/images/samples/avatar-2.jpg" },
+        "likes": 530,
+        "comments": 18
+      }
+    ],
+    "tagCloud": {
+      "title": "Tag Cloud",
+      "tags": ["PLAYOFFS", "ALCHEMISTS", "INJURIES", "TEAM", "INCORPORATIONS", "UNIFORMS", "CHAMPIONS", "PROFESSIONAL", "COACH", "STADIUM", "NEWS", "PLAYERS", "WOMEN DIVISION", "AWARDS"]
+    },
+    "banner": {
+      "image": "/alchemists/assets/images/samples/banner.jpg",
+      "url": "/alchemists/index.html#"
+    }
+  },
+
+  "modals": {
+    "register": {
+      "title": "Register Now!",
+      "fields": [
+        { "type": "email", "placeholder": "Enter your email address..." },
+        { "type": "password", "placeholder": "Enter your password..." },
+        { "type": "password", "placeholder": "Repeat your password..." }
+      ],
+      "button": { "text": "Create Your Account", "url": "/alchemists/shop-account.html" },
+      "note": "You'll receive a confirmation email in your inbox with a link to activate your account."
+    },
+    "login": {
+      "title": "Login to your account",
+      "fields": [
+        { "type": "email", "placeholder": "Enter your email address..." },
+        { "type": "password", "placeholder": "Enter your password..." }
+      ],
+      "rememberMe": true,
+      "forgotPassword": { "url": "/alchemists/index.html#" },
+      "button": { "text": "Enter to your account", "url": "/alchemists/shop-account.html" },
+      "socialLogin": {
+        "heading": "or Login with your social profile:",
+        "buttons": [
+          { "platform": "Facebook", "icon": "fab fa-facebook", "url": "/alchemists/index.html#" },
+          { "platform": "Twitter", "icon": "fab fa-twitter", "url": "/alchemists/index.html#" },
+          { "platform": "Google", "icon": "fab fa-google", "url": "/alchemists/index.html#" }
+        ]
+      }
+    }
+  }
+}

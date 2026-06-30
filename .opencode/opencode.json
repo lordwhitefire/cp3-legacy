@@ -1,0 +1,9 @@
+{
+  "customCommands": [
+    {
+      "name": "continue",
+      "description": "Reload workflow state and resume standards pipeline",
+      "command": "cat docs/workflow.md && cat active-areas.md && echo 'Ready'"
+    }
+  ]
+}

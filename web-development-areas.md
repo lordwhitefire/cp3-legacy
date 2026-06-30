@@ -105,6 +105,15 @@ When starting any new project, go through every area. Mark each one as:
 
 ---
 
+### 81. Load & Stress Testing
+- What is the expected concurrent user load at launch and in 6 months?
+- What is the acceptable response time under load (e.g., < 2 seconds)?
+- What load testing tool will be used? (k6, Artillery, Locust)
+- What is the stress testing plan to find the breaking point?
+- Who runs these tests and when?
+
+---
+
 ### 09. Responsive & Cross-Device
 - Which breakpoints? (mobile, tablet, desktop, wide)
 - Mobile-first or desktop-first?
@@ -212,6 +221,16 @@ When starting any new project, go through every area. Mark each one as:
 - GDPR compliance required? (EU audience)
 - Terms of service needed?
 - Age restrictions on content?
+- Is the app subject to the Nigeria Data Protection Regulation (NDPR)?
+- Does it process personal data of Nigerian citizens?
+- What are the explicit consent requirements for data collection?
+- Breach notification timeline (72 hours under NDPR)?
+- Data localization requirements (must data be stored in Nigeria)?
+- Who is the Data Protection Officer (DPO) or responsible contact?
+
+---
+
+### 82. NDPR Compliance (Nigeria)
 
 ---
 
@@ -783,12 +802,12 @@ When starting any new project, go through every area. Mark each one as:
 ## SUMMARY COUNT
 | Section | Areas |
 |---|---|
-| A — All Projects | 01 — 33 |
+| A — All Projects | 01 — 35 |
 | B — E-Commerce | 34 — 42 |
 | C — Web Apps | 43 — 64 |
 | D — Mobile/Desktop | 65 — 72 |
 | E — Universal Advanced | 73 — 80 |
-| **Total** | **80 Areas** |
+| **Total** | **82 Areas** |
 
 ---
 
