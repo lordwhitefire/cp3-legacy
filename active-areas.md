@@ -28,17 +28,17 @@
 > - ✅ Factor I: Single Git repo, one codebase
 > - ✅ Factor II: package.json with explicit deps, npm install isolates them
 > - ✅ Factor III: .env.local with all config keys, no hardcoded secrets in code
+> - ✅ Factor V: Vercel deployment config — vercel.json + GitHub Actions workflow (daily-refresh) that builds, injects env vars, and deploys
 > - ✅ Factor VI: Stateless — content from data.json, no in-memory session
 > - ✅ Factor VII: Next.js binds to port, self-contained HTTP server
 > - ✅ Factor IX: Fast startup and clean shutdown
 > - ✅ Factor XI: Logs to stdout (next dev), errors to console
+> - ✅ Factor XII: Documented entry points in scripts/ for admin tasks (generate-data.ts, complete-migration.ts, scripts/refresh-prod/)
 >
 > **Status — Remaining:**
-> - 🔲 Factor IV: When Sanity is added, connect via SANITY_API_READ_TOKEN env var (already set up in .env.local, just needs runtime wiring)
-> - 🔲 Factor V: Add Vercel deployment config — vercel.json or GitHub Actions workflow that builds, injects env vars, and deploys
-> - 🔲 Factor VIII: Verify production auto-scaling handles traffic spikes (monitor Vercel dashboard after launch)
+> - ✅ Factor IV: Sanity isolated from components to protect the UI. Direct Sanity queries in component code (via `site-data-context.tsx` / `queries.ts`) were causing the AI assistant to repeatedly modify and break UI components. Fix: all content is fetched at build time by `generate-data.ts` and served as static `data.json`. Components are pure UI — they never import or know about Sanity. The Sanity client code exists as a separate module but is kept out of the component tree. Fresh data is supplied by the daily-refresh GitHub Action pipeline.
+> - ➖ Factor VIII: N/A — demo project, no production traffic expected
 > - 🔲 Factor X: Document dev/prod parity check in README — build locally before deploy, same Node version in both environments
-> - 🔲 Factor XII: Create documented entry points in scripts/ for one-off admin tasks (Sanity schema sync, data.json migration)
 
 ### 02. Stack Decisions
 
