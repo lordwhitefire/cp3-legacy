@@ -137,7 +137,7 @@
 >
 > **Status — Remaining:**
 > - ✅ Write ADR-0004 to formalize the App Router Convention decision
-> - 🔲 Add `loading.tsx` and `error.tsx` at root level and per-route segment
+> - ✅ Add `loading.tsx` and `error.tsx` at root level
 > - 🔲 Document route groups convention for any future section-specific layouts
 > - 🔲 Document caching strategy: static generation + ISR revalidation plan for Sanity CMS
 > - 🔲 Document server/client component boundary rules in project README or architecture doc
