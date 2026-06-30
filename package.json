@@ -3,10 +3,11 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000 2>&1 | tee dev.log",
-    "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
+    "dev": "npm run generate-data && next dev -p 3000 2>&1 | tee dev.log",
+    "build": "npm run generate-data && next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
     "start": "NODE_ENV=production bun .next/standalone/server.js 2>&1 | tee server.log",
     "lint": "eslint .",
+    "generate-data": "tsx scripts/generate-data.ts",
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
@@ -47,6 +48,8 @@
     "@radix-ui/react-toggle-group": "^1.1.10",
     "@radix-ui/react-tooltip": "^1.2.7",
     "@reactuses/core": "^6.0.5",
+    "@sanity/client": "^7.23.0",
+    "@sanity/image-url": "^2.1.1",
     "@tanstack/react-query": "^5.82.0",
     "@tanstack/react-table": "^8.21.3",
     "class-variance-authority": "^0.7.1",
@@ -88,6 +91,7 @@
     "eslint": "^9",
     "eslint-config-next": "^16.1.1",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "tw-animate-css": "^1.3.5",
     "typescript": "^5"
   }

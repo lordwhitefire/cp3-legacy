@@ -1,11 +1,9 @@
 {
-  "_lastUpdated": "2026-06-30T15:56:36.581Z",
-  "_source": "sanity-webhook",
   "site": {
     "name": "CP3 Legacy",
     "tagline": "The Ultimate Chris Paul Fan Hub",
-    "description": "Celebrating the legendary career of Chris Paul — Point God, 12x All-Star, 2x Olympic Gold Medalist, and one of the greatest point guards to ever play the game.",
-    "logo": "https://cdn.sanity.io/images/f8dt6v1z/production/4277626678e53b32f147eea5d74b4cf60f925446-1024x1024.jpg?w=1200",
+    "description": "Celebrating the legendary career of Chris Paul \u2014 Point God, 12x All-Star, 2x Olympic Gold Medalist, and one of the greatest point guards to ever play the game.",
+    "logo": "/alchemists/assets/images/logo.png",
     "url": "#",
     "favicon": ""
   },
@@ -186,7 +184,7 @@
                 "category": "Legacy",
                 "title": "CP3: The Point God Legacy",
                 "date": "2026-06-28",
-                "excerpt": "A look back at Chris Paul's incredible 19-season NBA journey — from Wake Forest to the Hall of Fame.",
+                "excerpt": "A look back at Chris Paul's incredible 19-season NBA journey \u2014 from Wake Forest to the Hall of Fame.",
                 "author": {
                   "name": "Victor Makuo",
                   "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
@@ -394,20 +392,20 @@
     "subtitle": "The Point God Era",
     "title": "CP3",
     "titleHighlight": "Legacy",
-    "description": "Celebrating 19 seasons of greatness — from Wake Forest to the Hall of Fame. Welcome to the ultimate Chris Paul fan destination.",
+    "description": "Celebrating 19 seasons of greatness \u2014 from Wake Forest to the Hall of Fame. Welcome to the ultimate Chris Paul fan destination.",
     "button": {
       "text": "Explore CP3's Journey",
       "url": "#"
     },
-    "image": "https://cdn.sanity.io/images/f8dt6v1z/production/84c182e2fecc2baa5463fcc00e0d93038f754dd1-5504x8256.jpg?w=1200"
+    "image": "/alchemists/assets/images/samples/header_player.png"
   },
   "featuredCarousel": {
     "slides": [
       {
-        "id": "article-carousel-0",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+        "id": "slide-1",
+        "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
         "category": "Playoffs",
-        "title": "NBA Legend says Spurs should have signed Chris Paul for…",
+        "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 17490,
@@ -415,10 +413,10 @@
         "comments": 110
       },
       {
-        "id": "article-carousel-1",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/9f835b24484b2d00ca2b84d3d0bbea0fd08d17e8-2048x1349.jpg?w=1200",
+        "id": "slide-2",
+        "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
         "category": "Playoffs",
-        "title": "Isaiah Thomas believes Chris Paul staying could've won the title…",
+        "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 53312,
@@ -426,54 +424,10 @@
         "comments": 132
       },
       {
-        "id": "article-carousel-10",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3e0d42575ed1ddd960801e0f8dafc716a2911319-2000x1333.jpg?w=1200",
+        "id": "slide-3",
+        "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
         "category": "The Team",
-        "title": "Chris Paul: from rival to forever respected Spur - Pounding…",
-        "date": "2026-06-28",
-        "dateTime": "2026-06-28",
-        "views": 17677,
-        "likes": 3677,
-        "comments": 97
-      },
-      {
-        "id": "article-carousel-11",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3710a058f98518be341d15af82db4dea576e8c12-1500x1000.jpg?w=1200",
-        "category": "Playoffs",
-        "title": "Chris Paul's fit will determine the Clippers' title hopes -…",
-        "date": "2026-06-28",
-        "dateTime": "2026-06-28",
-        "views": 18873,
-        "likes": 4873,
-        "comments": 93
-      },
-      {
-        "id": "article-carousel-12",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/24787891751a30800a0a0f8462dcda49f21deea3-1320x880.jpg?w=1200",
-        "category": "The Team",
-        "title": "San Antonio Spurs Earn LA Lakers Comparison, They Might Fall…",
-        "date": "2026-06-28",
-        "dateTime": "2026-06-28",
-        "views": 14631,
-        "likes": 5631,
-        "comments": 51
-      },
-      {
-        "id": "article-carousel-13",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/bbcb93bd8b652b8d5ba11a7eaa91b595e942f3ca-720x900.jpg?w=1200",
-        "category": "The Team",
-        "title": "'No Limit!' Chris Paul's Continued Victor Wembanyama Praise Testament to…",
-        "date": "2026-06-28",
-        "dateTime": "2026-06-28",
-        "views": 27443,
-        "likes": 3443,
-        "comments": 63
-      },
-      {
-        "id": "article-carousel-2",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
-        "category": "The Team",
-        "title": "Chris Paul is not surprised by the San Antonio Spurs:…",
+        "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 45783,
@@ -481,10 +435,10 @@
         "comments": 203
       },
       {
-        "id": "article-carousel-3",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/221bac0f6f4c80e044cbac1ea4dfac468e638ca2-4670x3111.webp?w=1200",
+        "id": "slide-4",
+        "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
         "category": "Playoffs",
-        "title": "How a retired point guard is leaving his mark on…",
+        "title": "How a retired point guard is leaving his mark on\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 30261,
@@ -492,10 +446,10 @@
         "comments": 81
       },
       {
-        "id": "article-carousel-4",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/1df74dfdbb8de4a2495eccb6c9d5a2f2f3dcce79-1920x1080.webp?w=1200",
+        "id": "slide-5",
+        "image": "/alchemists/assets/images/samples/refresh-featured-5.jpg",
         "category": "The Team",
-        "title": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special…",
+        "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 24851,
@@ -503,10 +457,10 @@
         "comments": 71
       },
       {
-        "id": "article-carousel-5",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/440f8bb7de6df0ac75fab4de02b990fb37fd702f-2000x1333.webp?w=1200",
+        "id": "slide-6",
+        "image": "/alchemists/assets/images/samples/refresh-featured-6.jpg",
         "category": "Playoffs",
-        "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |…",
+        "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 29596,
@@ -514,10 +468,10 @@
         "comments": 216
       },
       {
-        "id": "article-carousel-6",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/78b2c7d5b345fc8811cf646f4ad8b69b31201069-1227x1600.webp?w=1200",
+        "id": "slide-7",
+        "image": "/alchemists/assets/images/samples/refresh-featured-7.jpg",
         "category": "The Team",
-        "title": "See highlights from Chris Paul’s NBA career - USA Today",
+        "title": "See highlights from Chris Paul\u2019s NBA career - USA Today",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 50561,
@@ -525,10 +479,10 @@
         "comments": 181
       },
       {
-        "id": "article-carousel-7",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3710a058f98518be341d15af82db4dea576e8c12-1500x1000.jpg?w=1200",
+        "id": "slide-8",
+        "image": "/alchemists/assets/images/samples/refresh-featured-8.jpg",
         "category": "The Team",
-        "title": "Chris Paul Saga Highlights Everything That’s Wrong With the Clippers…",
+        "title": "Chris Paul Saga Highlights Everything That\u2019s Wrong With the Clippers\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 51426,
@@ -536,10 +490,10 @@
         "comments": 46
       },
       {
-        "id": "article-carousel-8",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3e0d42575ed1ddd960801e0f8dafc716a2911319-2000x1333.jpg?w=1200",
+        "id": "slide-9",
+        "image": "/alchemists/assets/images/samples/refresh-featured-9.jpg",
         "category": "The Team",
-        "title": "After a legendary 21-season NBA career, superstar point guard Chris…",
+        "title": "After a legendary 21-season NBA career, superstar point guard Chris\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 38297,
@@ -547,15 +501,59 @@
         "comments": 117
       },
       {
-        "id": "article-carousel-9",
-        "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3c060d2177cb79c6bcd20c8e5e8971047905a3ad-2560x1756.jpg?w=1200",
+        "id": "slide-10",
+        "image": "/alchemists/assets/images/samples/refresh-featured-10.jpg",
         "category": "Playoffs",
-        "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |…",
+        "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |\u2026",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "views": 50465,
         "likes": 1465,
         "comments": 85
+      },
+      {
+        "id": "slide-11",
+        "image": "/alchemists/assets/images/samples/refresh-featured-11.jpg",
+        "category": "The Team",
+        "title": "Chris Paul: from rival to forever respected Spur - Pounding\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 17677,
+        "likes": 3677,
+        "comments": 97
+      },
+      {
+        "id": "slide-12",
+        "image": "/alchemists/assets/images/samples/refresh-featured-12.jpg",
+        "category": "Playoffs",
+        "title": "Chris Paul's fit will determine the Clippers' title hopes -\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 18873,
+        "likes": 4873,
+        "comments": 93
+      },
+      {
+        "id": "slide-13",
+        "image": "/alchemists/assets/images/samples/refresh-featured-13.jpg",
+        "category": "The Team",
+        "title": "San Antonio Spurs Earn LA Lakers Comparison, They Might Fall\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 14631,
+        "likes": 5631,
+        "comments": 51
+      },
+      {
+        "id": "slide-14",
+        "image": "/alchemists/assets/images/samples/refresh-featured-14.jpg",
+        "category": "The Team",
+        "title": "'No Limit!' Chris Paul's Continued Victor Wembanyama Praise Testament to\u2026",
+        "date": "2026-06-28",
+        "dateTime": "2026-06-28",
+        "views": 27443,
+        "likes": 3443,
+        "comments": 63
       }
     ]
   },
@@ -582,79 +580,79 @@
       ],
       "slides": [
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
           "category": "Playoffs",
-          "categoryClass": "",
-          "title": "NBA Legend says Spurs should have signed Chris Paul for…",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
           "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/9f835b24484b2d00ca2b84d3d0bbea0fd08d17e8-2048x1349.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
           "category": "Playoffs",
-          "categoryClass": "",
-          "title": "Isaiah Thomas believes Chris Paul staying could've won the title…",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
           "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
           "category": "The Team",
-          "categoryClass": "",
-          "title": "Chris Paul is not surprised by the San Antonio Spurs:…",
-          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama”  Basketball Network",
+          "categoryClass": "posts__cat-label--cat-1",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/221bac0f6f4c80e044cbac1ea4dfac468e638ca2-4670x3111.webp?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
           "category": "Playoffs",
-          "categoryClass": "",
-          "title": "How a retired point guard is leaving his mark on…",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "How a retired point guard is leaving his mark on\u2026",
           "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/1df74dfdbb8de4a2495eccb6c9d5a2f2f3dcce79-1920x1080.webp?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-5.jpg",
           "category": "The Team",
-          "categoryClass": "",
-          "title": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special…",
-          "excerpt": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special  heavy.com",
+          "categoryClass": "posts__cat-label--cat-1",
+          "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special\u2026",
+          "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/440f8bb7de6df0ac75fab4de02b990fb37fd702f-2000x1333.webp?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-6.jpg",
           "category": "Playoffs",
-          "categoryClass": "",
-          "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |…",
+          "categoryClass": "posts__cat-label--cat-3",
+          "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |\u2026",
           "excerpt": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq)  Mshale",
           "author": {
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
-            "name": "Victor Makuo"
+            "name": "Victor Makuo",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "date": "2026-06-28",
           "dateTime": "2026-06-28"
@@ -665,7 +663,7 @@
       "row1": [
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
-          "title": "NBA Legend says Spurs should have signed Chris Paul for…",
+          "title": "NBA Legend says Spurs should have signed Chris Paul for\u2026",
           "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
           "category": "Playoffs",
           "categoryClass": "posts__cat-label--cat-3",
@@ -681,7 +679,7 @@
         },
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
-          "title": "Isaiah Thomas believes Chris Paul staying could've won the title…",
+          "title": "Isaiah Thomas believes Chris Paul staying could've won the title\u2026",
           "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
           "category": "Playoffs",
           "categoryClass": "posts__cat-label--cat-3",
@@ -699,8 +697,8 @@
       "row2": {
         "card": {
           "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
-          "title": "Chris Paul is not surprised by the San Antonio Spurs:…",
-          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama”  Basketball Network",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs:\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
           "category": "The Team",
           "categoryClass": "posts__cat-label--cat-1",
           "date": "2026-06-28",
@@ -715,21 +713,21 @@
         },
         "simpleList": [
           {
-            "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express…",
+            "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express\u2026",
             "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
             "category": "Playoffs",
             "date": "2026-06-28",
             "dateTime": "2026-06-28"
           },
           {
-            "title": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special - heavy.com",
-            "excerpt": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special  heavy.com",
+            "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special - heavy.com",
+            "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
             "category": "The Team",
             "date": "2026-06-28",
             "dateTime": "2026-06-28"
           },
           {
-            "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq) -…",
+            "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq) -\u2026",
             "excerpt": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq)  Mshale",
             "category": "Playoffs",
             "date": "2026-06-28",
@@ -740,10 +738,10 @@
       "mainBanner": {
         "image": "/alchemists/assets/images/samples/refresh-featured-7.jpg",
         "category": "The Team",
-        "title": "See highlights from Chris Paul’s NBA career - USA Today",
+        "title": "See highlights from Chris Paul\u2019s NBA career - USA Today",
         "titleHighlight": "",
         "titleEnd": "",
-        "excerpt": "See highlights from Chris Paul’s NBA career  USA Today",
+        "excerpt": "See highlights from Chris Paul\u2019s NBA career  USA Today",
         "date": "2026-06-28",
         "dateTime": "2026-06-28",
         "button": {
@@ -754,7 +752,7 @@
       "row3": [
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-9.jpg",
-          "title": "After a legendary 21-season NBA career, superstar point guard Chris…",
+          "title": "After a legendary 21-season NBA career, superstar point guard Chris\u2026",
           "excerpt": "After a legendary 21-season NBA career, superstar point guard Chris Paul officially announced that he is hanging up his jersey, confirming the decision on Feb. 13, 2026.  facebook.com",
           "category": "The Team",
           "categoryClass": "posts__cat-label--cat-1",
@@ -770,7 +768,7 @@
         },
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-10.jpg",
-          "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |…",
+          "title": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns |\u2026",
           "excerpt": "Chris Paul | Isolation Scoring Highlights | Phoenix Suns | 2022 NBA Playoffs Thermos (pExiiTYsGA)  Mshale",
           "category": "Playoffs",
           "categoryClass": "posts__cat-label--cat-3",
@@ -786,7 +784,7 @@
         },
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-11.jpg",
-          "title": "Chris Paul: from rival to forever respected Spur - Pounding…",
+          "title": "Chris Paul: from rival to forever respected Spur - Pounding\u2026",
           "excerpt": "Chris Paul: from rival to forever respected Spur  Pounding The Rock",
           "category": "The Team",
           "categoryClass": "posts__cat-label--cat-1",
@@ -802,7 +800,7 @@
         },
         {
           "image": "/alchemists/assets/images/samples/refresh-featured-12.jpg",
-          "title": "Chris Paul's fit will determine the Clippers' title hopes -…",
+          "title": "Chris Paul's fit will determine the Clippers' title hopes -\u2026",
           "excerpt": "Chris Paul's fit will determine the Clippers' title hopes  Clipperholics",
           "category": "Playoffs",
           "categoryClass": "posts__cat-label--cat-3",
@@ -823,7 +821,7 @@
       "seeAllUrl": "#",
       "items": [
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-1.jpg",
           "category": "Playoffs",
           "title": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals - BasketNews.com",
           "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
@@ -831,14 +829,14 @@
           "dateTime": "2026-06-28",
           "author": {
             "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "views": 17490,
           "likes": 3490,
           "comments": 140
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/9f835b24484b2d00ca2b84d3d0bbea0fd08d17e8-2048x1349.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-2.jpg",
           "category": "Playoffs",
           "title": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs - sportingnews.com",
           "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
@@ -846,37 +844,37 @@
           "dateTime": "2026-06-28",
           "author": {
             "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "views": 53312,
           "likes": 4312,
           "comments": 162
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-3.jpg",
           "category": "The Team",
-          "title": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama” - Basketball Networ…",
-          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama”  Basketball Network",
+          "title": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d - Basketball Networ\u2026",
+          "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
           "date": "2026-06-28",
           "dateTime": "2026-06-28",
           "author": {
             "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "views": 45783,
           "likes": 1783,
           "comments": 233
         },
         {
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/221bac0f6f4c80e044cbac1ea4dfac468e638ca2-4670x3111.webp?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-featured-4.jpg",
           "category": "Playoffs",
-          "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express…",
+          "title": "How a retired point guard is leaving his mark on the Western Conference finals - San Antonio Express\u2026",
           "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
           "date": "2026-06-28",
           "dateTime": "2026-06-28",
           "author": {
             "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "views": 30261,
           "likes": 1261,
@@ -895,85 +893,85 @@
       ],
       "seasons": [
         {
-          "label": "2005-06 · Rookie",
+          "label": "2005-06 \u00b7 Rookie",
           "team": "New Orleans Hornets",
           "ppg": "16.1",
           "apg": "7.8",
           "rpg": "5.1"
         },
         {
-          "label": "2006-07 · Sophomore",
+          "label": "2006-07 \u00b7 Sophomore",
           "team": "New Orleans Hornets",
           "ppg": "17.3",
           "apg": "8.9",
           "rpg": "4.4"
         },
         {
-          "label": "2007-08 · MVP Race",
+          "label": "2007-08 \u00b7 MVP Race",
           "team": "New Orleans Hornets",
           "ppg": "21.1",
           "apg": "11.6",
           "rpg": "4.0"
         },
         {
-          "label": "2008-09 · Career High PPG",
+          "label": "2008-09 \u00b7 Career High PPG",
           "team": "New Orleans Hornets",
           "ppg": "22.8",
           "apg": "11.0",
           "rpg": "5.5"
         },
         {
-          "label": "2011-12 · Traded to LAC",
+          "label": "2011-12 \u00b7 Traded to LAC",
           "team": "LA Clippers",
           "ppg": "19.8",
           "apg": "9.1",
           "rpg": "3.6"
         },
         {
-          "label": "2013-14 · All-Star MVP",
+          "label": "2013-14 \u00b7 All-Star MVP",
           "team": "LA Clippers",
           "ppg": "19.1",
           "apg": "10.7",
           "rpg": "4.3"
         },
         {
-          "label": "2015-16 · Clippers Prime",
+          "label": "2015-16 \u00b7 Clippers Prime",
           "team": "LA Clippers",
           "ppg": "19.5",
           "apg": "10.0",
           "rpg": "4.2"
         },
         {
-          "label": "2017-18 · Rockets 65-17",
+          "label": "2017-18 \u00b7 Rockets 65-17",
           "team": "Houston Rockets",
           "ppg": "18.6",
           "apg": "7.9",
           "rpg": "5.4"
         },
         {
-          "label": "2019-20 · OKC Comeback",
+          "label": "2019-20 \u00b7 OKC Comeback",
           "team": "Oklahoma City Thunder",
           "ppg": "17.6",
           "apg": "6.7",
           "rpg": "5.0"
         },
         {
-          "label": "2020-21 · NBA Finals",
+          "label": "2020-21 \u00b7 NBA Finals",
           "team": "Phoenix Suns",
           "ppg": "16.4",
           "apg": "8.9",
           "rpg": "4.5"
         },
         {
-          "label": "2021-22 · Assists Leader",
+          "label": "2021-22 \u00b7 Assists Leader",
           "team": "Phoenix Suns",
           "ppg": "14.7",
           "apg": "10.8",
           "rpg": "4.4"
         },
         {
-          "label": "Career · 19 Seasons",
-          "team": "17.5 PPG · 9.4 APG · 4.5 RPG",
+          "label": "Career \u00b7 19 Seasons",
+          "team": "17.5 PPG \u00b7 9.4 APG \u00b7 4.5 RPG",
           "ppg": "17.5",
           "apg": "9.4",
           "rpg": "4.5"
@@ -1015,65 +1013,65 @@
         {
           "title": "MARCA: Chris Paul Jr. turns heads at Nike Elite 100, showing he's carving out his own path",
           "excerpt": "Chris Paul Jr. turns heads at Nike Elite 100, showing he's carving out his own path  MARCA",
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3710a058f98518be341d15af82db4dea576e8c12-1500x1000.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-news-1.jpg",
           "category": "The Team",
-          "categoryClass": "",
+          "categoryClass": "posts__cat-label--cat-1",
           "date": "2026-06-27",
           "dateTime": "2026-06-27",
           "author": {
-            "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "name": "MARCA",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "redditUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbTRLOWdxWDAyUVgtbTIyZ1FZc3BwbTVVdkJQZS1leE1zRXhENU9NV0tPQS1weU1uRDVIY3U0ZjBxanNrNHRMd1k1RThvRURRVlFQNVp6MG9oX1h6RHIwQjRQRWRNY2prY3dmSlYtQXJPUmVveVlrRnRVT2tzVl9tZ2dGSmwtbndGck9TMldHRS1qTEs3NHJ5dGc3eENscDdHblZlZjBYUzM3WWdDR0wyeGFJNTl5QUdGaERRNGh4Mmk5SFdRREh0ZFBGZHhEWVRhMzkwZzFXOENvNFXSAdsBQVVfeXFMT1hHUVBzcENoZWNvQlBvbDJpR0hmSGo2TDFMb3UxeVV4ci1GdUpPZ2hYWldiWEhtci02WmZHOTEtZHpLcEVkdFpEaGpXWDlPc0M4dEl4blQ1OHFLNERWenZjSHNsZ0tJN041dUhFMkVSMTl1aG1HMzhlcnV4VzFweGlaUDRvclpkVDFHX1NTZ08zQjcxUW52U19GLWp4UDRxM1RVbGlGbWJ6YkJsRXpGNVBDYzhQa0toS0dPX21iZDFPRG1ybWhFQzlBNDRubDFOeXlFN2tiNXVFcDVz?oc=5"
         },
         {
-          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti…",
+          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti\u2026",
           "excerpt": "Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Timberwolves (kpPjpLWFEV)  Mshale",
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3710a058f98518be341d15af82db4dea576e8c12-1500x1000.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-news-2.jpg",
           "category": "The Team",
-          "categoryClass": "",
+          "categoryClass": "posts__cat-label--cat-1",
           "date": "2026-06-27",
           "dateTime": "2026-06-27",
           "author": {
-            "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "name": "Mshale",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "redditUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HbVlBNlVsY0d0OWYyVU1BQ0NPN2hVNU1nb0pwNnN5NFJhUUJFcF9hVndMY21RYjctalplZDlMcDlDa2N1SUpBb1BWSzN1aGFyTnZRdVZSS3FsVzQ?oc=5"
         },
         {
-          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav…",
+          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav\u2026",
           "excerpt": "Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"David was the acting owner of New Orleans\"  Basketball Network",
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/ccebc331b217b2d0efa0f1e95571a02e83824142-1200x800.webp?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-news-3.jpg",
           "category": "The Team",
-          "categoryClass": "",
+          "categoryClass": "posts__cat-label--cat-1",
           "date": "2026-06-24",
           "dateTime": "2026-06-24",
           "author": {
-            "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "name": "Basketball Network",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "redditUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDZkYzdsNzg4Rm8zQmZTMFRHZGFxOEdwUmdEaWEtbE14em5fS0htYXVWRUU4RDBsQjljaDF1ZS1hU0kxajBMUkhDM21pTzByLWgweWlWSzNoYlJBa0lOdE55dnVCdmt4MWstdnd3SlNnNnBsM3VfOFFzX25zN2hUS2hqWFEyNlJVcmxkb0dHWUN5QlZnRS1ZSnJmak0tOGx2S2dBZUFzWnotQnFNNUxyRHlYTGVFYXlpNXc?oc=5"
         },
         {
           "title": "Yahoo Sports: Isaiah Thomas facing pushback on Chris Paul-Spurs take",
           "excerpt": "Isaiah Thomas facing pushback on Chris Paul-Spurs take  Yahoo Sports",
-          "image": "https://cdn.sanity.io/images/f8dt6v1z/production/9f835b24484b2d00ca2b84d3d0bbea0fd08d17e8-2048x1349.jpg?w=1200",
+          "image": "/alchemists/assets/images/samples/refresh-news-4.jpg",
           "category": "The Team",
-          "categoryClass": "",
+          "categoryClass": "posts__cat-label--cat-1",
           "date": "2026-06-22",
           "dateTime": "2026-06-22",
           "author": {
-            "name": "Victor Makuo",
-            "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200"
+            "name": "Yahoo Sports",
+            "avatar": "/alchemists/assets/images/samples/avatar-1.jpg"
           },
           "redditUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEg1TDF6SlRfUTREdi1scmJyWVZsYTE5eFlXX0FNN2hSSnFfQTRoRjY0bnFuWm9LczhGMExzZmxVX2pCazlrMS1UUkphUUFwVC1sRWttLVJ3bGZCbnNVVkNtMktJYWk0YUNzRjZJQlNnMVp2R1NjNlotS2tHdF9HTnBDdFNfTFVQa0VJVg?oc=5"
         }
       ]
     },
     "featuredPlayer": {
-      "teamLogo": "https://cdn.sanity.io/images/f8dt6v1z/production/4277626678e53b32f147eea5d74b4cf60f925446-1024x1024.jpg?w=1200",
-      "photo": "https://cdn.sanity.io/images/f8dt6v1z/production/28490c72d2fcb5cd3fa2e7fea72b3f8d8fd24149-1200x790.jpg?w=1200",
-      "number": "41",
+      "teamLogo": "/alchemists/assets/images/logo.png",
+      "photo": "/alchemists/assets/images/samples/widget-featured-player.png",
+      "number": 41,
       "firstName": "Chris",
       "lastName": "Paul",
       "stats": [
@@ -1106,12 +1104,12 @@
         "scoreLoser": 0,
         "team1": {
           "name": "San Antonio Spurs",
-          "logo": "https://cdn.sanity.io/images/f8dt6v1z/production/6228964b8e6f71f0f6c210ce838ad10688e6d07b-20x24.png?w=1200",
+          "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
           "desc": "San Antonio Spurs"
         },
         "team2": {
           "name": "",
-          "logo": "https://cdn.sanity.io/images/f8dt6v1z/production/6228964b8e6f71f0f6c210ce838ad10688e6d07b-20x24.png?w=1200",
+          "logo": "/alchemists/assets/images/samples/logos/alchemists_b_shield.png",
           "desc": ""
         },
         "quarters": {
@@ -1140,53 +1138,47 @@
         },
         "mvp": {
           "name": "Chris Paul",
-          "photo": {
-            "_type": "image",
-            "asset": {
-              "_ref": "image-823c484cc22439cbf0a61d824ec22ff56dfa52ec-1200x800-jpg",
-              "_type": "reference"
-            }
-          },
+          "photo": "/alchemists/assets/images/samples/stats_player_02.jpg",
           "position": "Point Guard",
           "stats": [
             {
-              "percent": 0,
               "unit": "Pts",
-              "value": 0
+              "value": 0,
+              "percent": 0
             },
             {
-              "percent": 0,
               "unit": "Reb",
-              "value": 0
+              "value": 0,
+              "percent": 0
             },
             {
-              "percent": 0,
               "unit": "Ast",
-              "value": 0
+              "value": 0,
+              "percent": 0
             }
           ]
         },
         "stats": [
           {
             "label": "Assists",
-            "team1Bar": "progress__bar-width-60",
             "team1Value": 0,
-            "team2Bar": "progress__bar-width-80",
-            "team2Value": 5
+            "team2Value": 5,
+            "team1Bar": "progress__bar-width-60",
+            "team2Bar": "progress__bar-width-80"
           },
           {
             "label": "Rebounds",
-            "team1Bar": "progress__bar-width-90",
             "team1Value": 0,
-            "team2Bar": "progress__bar-width-40",
-            "team2Value": 3
+            "team2Value": 3,
+            "team1Bar": "progress__bar-width-90",
+            "team2Bar": "progress__bar-width-40"
           },
           {
             "label": "Steals",
-            "team1Bar": "progress__bar-width-30",
             "team1Value": 0,
-            "team2Bar": "progress__bar-width-70",
-            "team2Value": 2
+            "team2Value": 2,
+            "team1Bar": "progress__bar-width-30",
+            "team2Bar": "progress__bar-width-70"
           }
         ]
       }
@@ -1202,9 +1194,9 @@
             {
               "title": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals - BasketNews.com",
               "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-1.jpg",
               "category": "Playoffs",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-3",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 22810,
@@ -1212,11 +1204,11 @@
               "comments": 20
             },
             {
-              "title": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama” - Basketball Networ…",
-              "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama”  Basketball Network",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/71f1e8f9786eae6bed6a4cb6b12a92683da7a216-1280x720.jpg?w=1200",
+              "title": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d - Basketball Networ\u2026",
+              "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: \u201cIt ain\u2019t just Wembanyama\u201d  Basketball Network",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-2.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 7574,
@@ -1224,11 +1216,11 @@
               "comments": 184
             },
             {
-              "title": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special - heavy.com",
-              "excerpt": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special  heavy.com",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/1df74dfdbb8de4a2495eccb6c9d5a2f2f3dcce79-1920x1080.webp?w=1200",
+              "title": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special - heavy.com",
+              "excerpt": "Chris Paul Reveals what Makes Spurs\u2019 Victor Wembanyama so Special  heavy.com",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-3.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 16031,
@@ -1236,11 +1228,11 @@
               "comments": 41
             },
             {
-              "title": "Reggie Miller argued the Spurs made a mistake by not re-signing Chris Paul - \"Just as an insurance v…",
+              "title": "Reggie Miller argued the Spurs made a mistake by not re-signing Chris Paul - \"Just as an insurance v\u2026",
               "excerpt": "Reggie Miller argued the Spurs made a mistake by not re-signing Chris Paul - \"Just as an insurance vet\"  Basketball Network",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/a7e9e6419a0cba2b0ceccf04b984fd719c2dba16-1920x1280.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-4.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 47078,
@@ -1248,11 +1240,11 @@
               "comments": 88
             },
             {
-              "title": "Chris Paul landing spots: Lakers, Rockets, Spurs among possible destinations for PG after trade to R…",
+              "title": "Chris Paul landing spots: Lakers, Rockets, Spurs among possible destinations for PG after trade to R\u2026",
               "excerpt": "Chris Paul landing spots: Lakers, Rockets, Spurs among possible destinations for PG after trade to Raptors  sportingnews.com",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/ee70412fbbd2bc911220f01999cb452cf391c378-3901x2872.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-newest-5.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 54018,
@@ -1267,76 +1259,46 @@
           "active": false,
           "items": [
             {
-              "title": "Blake Griffin slams Clippers, Steve Ballmer for Chris Paul’s sudden exit - The New York Times",
-              "excerpt": "Blake Griffin slams Clippers, Steve Ballmer for Chris Paul’s sudden exit  The New York Times",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "Blake Griffin slams Clippers, Steve Ballmer for Chris Paul\u2019s sudden exit - The New York Times",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "Blake Griffin slams Clippers, Steve Ballmer for Chris Paul\u2019s sudden exit  The New York Times"
             },
             {
-              "title": "5 NBA Preseason Hot Takes That Will Age Well…and 3 That Won't - Bleacher Report",
-              "excerpt": "5 NBA Preseason Hot Takes That Will Age Well…and 3 That Won't  Bleacher Report",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "5 NBA Preseason Hot Takes That Will Age Well\u2026and 3 That Won't - Bleacher Report",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "5 NBA Preseason Hot Takes That Will Age Well\u2026and 3 That Won't  Bleacher Report"
             },
             {
-              "title": "Chris Paul opens up on ‘emotional rollercoaster’ of vetoed Lakers trade - New York Post",
-              "excerpt": "Chris Paul opens up on ‘emotional rollercoaster’ of vetoed Lakers trade  New York Post",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "Chris Paul opens up on \u2018emotional rollercoaster\u2019 of vetoed Lakers trade - New York Post",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "Chris Paul opens up on \u2018emotional rollercoaster\u2019 of vetoed Lakers trade  New York Post"
             },
             {
-              "title": "“The only reason you have fans here is because you got 1980 sex worker prices” – Gilbert Arenas urge…",
-              "excerpt": "“The only reason you have fans here is because you got 1980 sex worker prices” – Gilbert Arenas urges Clippers to leave Los Angeles after Chris Paul split  Basketball Network",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "\u201cThe only reason you have fans here is because you got 1980 sex worker prices\u201d \u2013 Gilbert Arenas urge\u2026",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "\u201cThe only reason you have fans here is because you got 1980 sex worker prices\u201d \u2013 Gilbert Arenas urges Clippers to leave Los Angeles after Chris Paul split  Basketball Network"
             },
             {
-              "title": "Logan and Jake Paul clash after Bad Bunny’s Super Bowl halftime performance - Cleveland.com",
-              "excerpt": "Logan and Jake Paul clash after Bad Bunny’s Super Bowl halftime performance  Cleveland.com",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "Logan and Jake Paul clash after Bad Bunny\u2019s Super Bowl halftime performance - Cleveland.com",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "Logan and Jake Paul clash after Bad Bunny\u2019s Super Bowl halftime performance  Cleveland.com"
             },
             {
-              "title": "Chris Paul Just Reopened One Of The Most Painful Kobe Bryant Debates On The Pat McAfee Show Giro D'i…",
-              "excerpt": "Chris Paul Just Reopened One Of The Most Painful Kobe Bryant Debates On The Pat McAfee Show Giro D'italia 2026 (IoLHePh4aD)  Fathom Journal",
-              "image": "",
               "category": "The Team",
-              "categoryClass": "",
+              "title": "Chris Paul Just Reopened One Of The Most Painful Kobe Bryant Debates On The Pat McAfee Show Giro D'i\u2026",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
-              "views": 0,
-              "likes": 0,
-              "comments": 0
+              "excerpt": "Chris Paul Just Reopened One Of The Most Painful Kobe Bryant Debates On The Pat McAfee Show Giro D'italia 2026 (IoLHePh4aD)  Fathom Journal"
             }
           ]
         },
@@ -1348,9 +1310,9 @@
             {
               "title": "The Point God is gone but his fingerprints are all over the playoffs - Bright Side Of The Sun",
               "excerpt": "The Point God is gone but his fingerprints are all over the playoffs  Bright Side Of The Sun",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/09710ec535fa0a70907204be3d4584f7cedeee35-1280x720.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-1.jpg",
               "category": "Playoffs",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-3",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 54459,
@@ -1358,11 +1320,11 @@
               "comments": 69
             },
             {
-              "title": "Chris Paul retires without a ring -- but his career proves he was one of NBA's greatest winners - CB…",
+              "title": "Chris Paul retires without a ring -- but his career proves he was one of NBA's greatest winners - CB\u2026",
               "excerpt": "Chris Paul retires without a ring -- but his career proves he was one of NBA's greatest winners  CBS Sports",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/168027b3bd0839a3eb5404af6e4ada1d46ab225f-1440x960.webp?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-2.jpg",
               "category": "Playoffs",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-3",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 44651,
@@ -1372,9 +1334,9 @@
             {
               "title": "The legacy of the 'Point God': Outstanding career with a controversial goodbye - Flashscore.com",
               "excerpt": "The legacy of the 'Point God': Outstanding career with a controversial goodbye  Flashscore.com",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3715d4610a4b4a239c1c0609bbb0c8a0b2e0bd49-900x600.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-3.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 35438,
@@ -1384,9 +1346,9 @@
             {
               "title": "Basketball: Two-time Olympic champion Chris Paul signals his retirement - olympics.com",
               "excerpt": "Basketball: Two-time Olympic champion Chris Paul signals his retirement  olympics.com",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/c6b402541b71ab1b7b7d6606a99a8a2360b7188e-1500x1000.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-4.jpg",
               "category": "The Team",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-1",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 33922,
@@ -1396,9 +1358,9 @@
             {
               "title": "How Chris Paul's legacy is embedded in the 2026 NBA playoffs - ESPN",
               "excerpt": "How Chris Paul's legacy is embedded in the 2026 NBA playoffs  ESPN",
-              "image": "https://cdn.sanity.io/images/f8dt6v1z/production/3710a058f98518be341d15af82db4dea576e8c12-1500x1000.jpg?w=1200",
+              "image": "/alchemists/assets/images/samples/refresh-trending-popular-5.jpg",
               "category": "Playoffs",
-              "categoryClass": "",
+              "categoryClass": "posts__cat-label--cat-3",
               "date": "2026-06-28",
               "dateTime": "2026-06-28",
               "views": 33780,
@@ -1445,12 +1407,12 @@
   },
   "footer": {
     "logo": {
-      "src": "https://cdn.sanity.io/images/f8dt6v1z/production/4277626678e53b32f147eea5d74b4cf60f925446-1024x1024.jpg?w=1200",
+      "src": "/alchemists/assets/images/logo.png",
       "alt": "CP3 Legacy"
     },
     "contactInfo": {
       "title": "Contact Info",
-      "description": "The ultimate fan hub for Chris Paul — celebrating 20 years of Point God excellence. Stats, news, highlights, and legacy all in one place.",
+      "description": "The ultimate fan hub for Chris Paul \u2014 celebrating 20 years of Point God excellence. Stats, news, highlights, and legacy all in one place.",
       "items": [
         {
           "icon": "basketball",
@@ -1493,12 +1455,12 @@
         },
         {
           "category": "The Team",
-          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti…",
+          "title": "Mshale: Chris Paul Can Only Laugh Finding Out How Easy It Is To Lob To Victor Wembanyama Spurs Vs Ti\u2026",
           "date": "2026-06-27"
         },
         {
           "category": "The Team",
-          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav…",
+          "title": "Basketball Network: Adam Silver clarifies why Chris Paul's trade to the L.A. Lakers was vetoed: \"Dav\u2026",
           "date": "2026-06-24"
         }
       ]

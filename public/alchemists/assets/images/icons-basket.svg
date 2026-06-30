@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  icons-basket.svg — CP3 Legacy asset
+  Sprite containing 4 basketball-themed icons referenced by the
+  Alchemists theme's info-block widgets.
+
+  Usage in JSX:
+    <svg role="img" className="df-icon df-icon--jersey">
+      <use xlinkHref="/alchemists/assets/images/icons-basket.svg#jersey" />
+    </svg>
+
+  Each <symbol> has its own viewBox so it scales correctly regardless
+  of the consumer's <svg> dimensions.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+
+  <!-- ============================================ -->
+  <!-- #jersey — basketball jersey icon            -->
+  <!-- ============================================ -->
+  <symbol id="jersey" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Jersey outline: neck cutout + shoulders + body -->
+      <path d="M 22 8 L 14 14 L 6 18 L 10 28 L 14 26 L 14 56 L 50 56 L 50 26 L 54 28 L 58 18 L 50 14 L 42 8 L 38 12 C 35 14, 29 14, 26 12 Z" />
+      <!-- Jersey number "3" (CP3) -->
+      <path d="M 36 26 C 42 26, 42 32, 38 32 C 42 32, 42 38, 36 38" />
+      <!-- Side seams -->
+      <path d="M 14 36 L 14 56 M 50 36 L 50 56" opacity="0.4" />
+    </g>
+  </symbol>
+
+  <!-- ============================================ -->
+  <!-- #basketball — basketball icon               -->
+  <!-- ============================================ -->
+  <symbol id="basketball" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <!-- Outer circle: basketball -->
+      <circle cx="32" cy="32" r="26" />
+      <!-- Vertical seam -->
+      <line x1="32" y1="6" x2="32" y2="58" />
+      <!-- Horizontal seam -->
+      <line x1="6" y1="32" x2="58" y2="32" />
+      <!-- Curved seams (top-left to bottom-right arc) -->
+      <path d="M 9 19 C 18 24, 18 40, 9 45" />
+      <!-- Curved seams (top-right to bottom-left arc) -->
+      <path d="M 55 19 C 46 24, 46 40, 55 45" />
+    </g>
+  </symbol>
+
+  <!-- ============================================ -->
+  <!-- #bag — shopping / merch bag icon            -->
+  <!-- ============================================ -->
+  <symbol id="bag" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Bag body -->
+      <path d="M 10 18 L 54 18 L 51 58 L 13 58 Z" />
+      <!-- Bag opening (top edge) -->
+      <line x1="10" y1="18" x2="54" y2="18" />
+      <!-- Handles -->
+      <path d="M 22 18 L 22 12 C 22 8, 28 6, 32 6 C 36 6, 42 8, 42 12 L 42 18" />
+    </g>
+  </symbol>
+
+  <!-- ============================================ -->
+  <!-- #bag-handle — bag handle icon               -->
+  <!-- ============================================ -->
+  <symbol id="bag-handle" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Just the handle arc + small top section -->
+      <path d="M 18 28 L 18 14 C 18 8, 25 4, 32 4 C 39 4, 46 8, 46 14 L 46 28" />
+      <!-- Handle attachment points -->
+      <circle cx="18" cy="28" r="2" fill="currentColor" />
+      <circle cx="46" cy="28" r="2" fill="currentColor" />
+    </g>
+  </symbol>
+
+</svg>
