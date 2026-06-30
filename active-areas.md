@@ -113,12 +113,8 @@
 > - ✅ Semantic role categories identified: brand, background, text, border, state
 >
 > **Status — Remaining:**
-> - 🔲 Audit all brand color usage across the codebase
-> - 🔲 Define exact semantic role names and their mapped hex values
-> - 🔲 Update `tailwind.config.ts` to use semantic token references
-> - 🔲 Create `docs/brand/color-tokens.md` with full documentation
 > - ✅ Write ADR-0003 to formalize the Semantic Color Token decision
-> - 🔲 Verify all 48 shadcn/ui components still render correctly after token changes
+> - ➖ N/A — demo project with one brand, color overhaul doesn't justify the effort
 ### 05. Frontend Architecture
 
 > **Standard:** Next.js App Router Convention
