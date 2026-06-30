@@ -3,6 +3,28 @@
 @import "tailwindcss/theme" layer(theme);
 @import "tailwindcss/utilities" layer(utilities);
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("Montserrat"),
+    url("/fonts/montserrat/montserrat-400.woff2") format("woff2"),
+    url("/fonts/montserrat/montserrat-400-ext.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("Montserrat"),
+    url("/fonts/montserrat/montserrat-700.woff2") format("woff2"),
+    url("/fonts/montserrat/montserrat-700-ext.woff2") format("woff2");
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

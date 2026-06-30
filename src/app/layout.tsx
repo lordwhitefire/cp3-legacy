@@ -64,10 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google Fonts intentionally NOT loaded — when the original MHTML
-            was screenshotted via file:// URL, cross-origin font requests
-            were blocked, so the original rendered with the sans-serif
-            fallback. To match, we deliberately don't load web fonts. */}
+        {/* Montserrat self-hosted via @font-face in globals.css — zero external requests */}
 
         {/* Alchemists vendor + theme CSS — loaded in original order */}
         <link
