@@ -138,9 +138,9 @@
 > **Status — Remaining:**
 > - ✅ Write ADR-0004 to formalize the App Router Convention decision
 > - ✅ Add `loading.tsx` and `error.tsx` at root level
-> - 🔲 Document route groups convention for any future section-specific layouts
-> - 🔲 Document caching strategy: static generation + ISR revalidation plan for Sanity CMS
-> - 🔲 Document server/client component boundary rules in project README or architecture doc
+> - ✅ Document route groups convention — covered in README Frontend Architecture section
+> - ✅ Document caching strategy — covered in README Frontend Architecture section
+> - ✅ Document server/client component boundary rules — covered in README Frontend Architecture section
 
 > **Note:** Area 06 (Routing & Navigation) is covered by this architecture — routing standards will be App Router-native patterns. No separate routing library will be adopted.
 
