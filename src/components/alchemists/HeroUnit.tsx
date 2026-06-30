@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import data from "@/data/data.json";
 
@@ -31,7 +32,14 @@ export function HeroUnit() {
             </a>
           </div>
           <figure className="hero-unit__img">
-            <img src={data.heroUnit.image} alt="Hero Unit Image" />
+            <Image
+              src={data.heroUnit.image}
+              alt="Hero Unit Image"
+              priority
+              width={5504}
+              height={8256}
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
           </figure>
         </div>
       </div>
