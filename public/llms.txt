@@ -1,0 +1,23 @@
+# CP3 Legacy
+
+Personal portfolio and hire-me funnel site for Chris Paul's basketball legacy.
+
+## Key pages
+
+- Home: https://cp3-legacy.vercel.app/
+
+## Author
+
+- **Name:** Ifedike Victor Makuo
+- **Handle:** lordwhitefire
+- **Location:** Onitsha, Anambra State, Nigeria
+- **GitHub:** https://github.com/lordwhitefire
+- **LinkedIn:** https://www.linkedin.com/in/makuo-ifedike-216607350/
+- **Education:** B.Eng Chemical Engineering, Nnamdi Azikiwe University (2025) — self-taught developer
+- **Targeting:** Remote frontend developer roles (React, Next.js, TypeScript)
+
+## Structured data
+
+- Organization schema embedded in page
+- Website schema embedded in page
+- Person (creator) schema embedded in page

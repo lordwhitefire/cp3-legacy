@@ -192,12 +192,12 @@
 > - ✅ Cross-area dependency clean: Area 05 (App Router) and Area 06 (Layout Hierarchy) already establish the Metadata API foundation
 >
 > **Status — Remaining:**
-> - 🔲 Create `src/app/robots.ts` — allow all crawlers, disallow `/api/*`, point to sitemap
-> - 🔲 Create `src/app/sitemap.ts` — list all public URLs with lastmod and priority
-> - 🔲 Add schema.org JSON-LD to `src/app/page.tsx` — Organization, WebSite, BreadcrumbList schemas
-> - 🔲 Create `public/llms.txt` — AI crawler guidance with key pages and structured data hints
-> - 🔲 Write ADR-0006 to formalize the Next.js Metadata API decision
-> - 🔲 Verify all pages (current + future) export route-specific metadata
+> - ✅ Create `src/app/robots.ts`
+> - ✅ Create `src/app/sitemap.ts`
+> - ✅ Add schema.org JSON-LD to `src/app/page.tsx`
+> - ✅ Create `public/llms.txt`
+> - ✅ Write ADR-0006 to formalize the Next.js Metadata API decision
+> - ✅ Verify all pages export route-specific metadata
 
 ### 08. Performance
 
