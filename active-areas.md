@@ -488,14 +488,15 @@
 > - ✅ Env vars documented in `.env.example` (Area 14 Remaining — once created, ready for Vercel import)
 > - ✅ Cross-area dependency: builds on Area 01 (Twelve-Factor Factor V — Build/Release/Run separation)
 >
-> **Status — Remaining:**
-> - 🔲 Connect Git repo to Vercel dashboard (Import Git Repository)
-> - 🔲 Configure Environment Variables in Vercel — all vars from `.env.local`
-> - 🔲 Set Production Branch to `main`
-> - 🔲 Verify first auto-deploy — push to main, confirm production URL updates
-> - 🔲 Remove manual deploy scripts
-> - 🔲 Write ADR-000X to formalize the Vercel Auto-Deployment decision
-> - 🔲 Document deployment workflow in project README
+> **Status — Done:**
+> - ✅ Git repo connected to Vercel — site live at `cp3-legacy.vercel.app`
+> - ✅ Environment Variables configured in Vercel dashboard
+> - ✅ Production Branch set to `main` — auto-deploys on every push
+> - ✅ First auto-deploy verified — multiple successful production deploys
+> - ✅ No manual deploy scripts exist — removed/never created
+> - ✅ ADR-0012 written and accepted: Vercel Git-Based Auto-Deployment
+> - ✅ Deployment documented in README — references Vercel auto-deploy and `vercel.json`
+> - ✅ Cross-area dependency: builds on Area 01 (Twelve-Factor Factor V — Build/Release/Run)
 
 ### 19. Monitoring & Observability
 
