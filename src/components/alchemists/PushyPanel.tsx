@@ -18,7 +18,7 @@ function isHidden(category: string | undefined, filter: string): boolean {
 
 export function PushyPanel({ isOpen, onClose, featuredCategory }: { isOpen: boolean; onClose: () => void; featuredCategory: string }) {
   return (
-      <aside className={`pushy-panel${isOpen ? " pushy-panel--active" : ""}`}>
+      <aside className={`pushy-panel${isOpen ? " pushy-panel--active" : ""}`} aria-label="Side panel">
         <div className="pushy-panel__inner">
           <header className="pushy-panel__header">
             <div className="pushy-panel__logo">

@@ -270,7 +270,7 @@ export function Header({ onTogglePushyPanel }: { onTogglePushyPanel?: () => void
                     </a>
                   </li>
                 </ul>
-                <a href="#" className="pushy-panel__toggle" onClick={(e) => { e.preventDefault(); onTogglePushyPanel?.(); }}>
+                <a href="#" className="pushy-panel__toggle" aria-label="Toggle navigation panel" onClick={(e) => { e.preventDefault(); onTogglePushyPanel?.(); }}>
                   <span className="pushy-panel__line"></span>
                 </a>
               </nav>

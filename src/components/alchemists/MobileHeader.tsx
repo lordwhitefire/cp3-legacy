@@ -12,7 +12,7 @@ export function MobileHeader() {
           </a>
         </div>
         <div className="header-mobile__inner">
-          <a id="header-mobile__toggle" className="burger-menu-icon">
+          <a id="header-mobile__toggle" className="burger-menu-icon" aria-label="Open navigation menu">
             <span className="burger-menu-icon__line"></span>
           </a>
           {" "}
