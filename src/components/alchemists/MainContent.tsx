@@ -25,7 +25,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
             <div className="content col-lg-8">
               <div className="card card--clean">
                 <header className="card__header card__header--has-filter">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.featuredNews.title}
                   </h4>
                   <ul className="category-filter category-filter--featured">
@@ -305,7 +305,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </div>
               <div className="card card--clean">
                 <header className="card__header card__header--has-btn">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.latestNews.title}
                   </h4>
                   <a href={mc.latestNews.seeAllUrl} className="btn btn-default btn-outline btn-xs card-header__button" onClick={(e) => e.preventDefault()}>
@@ -382,7 +382,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
             <div id="sidebar" className="sidebar col-lg-4">
               <aside className="widget card widget--sidebar widget-standings">
                 <div className="widget__title card__header card__header--has-btn">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.standings.title}
                   </h4>
                   <a href={mc.standings.seeAllUrl} className="btn btn-default btn-outline btn-xs card-header__button" onClick={(e) => e.preventDefault()}>
@@ -445,7 +445,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget widget--sidebar card widget-popular-posts">
                 <div className="widget__title card__header">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.popularNews.title}
                   </h4>
                 </div>
@@ -528,7 +528,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget card widget--sidebar widget-game-result">
                 <div className="widget__title card__header card__header--has-btn">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.lastGameResult.title}
                   </h4>
                   <button className="btn btn-default btn-outline btn-xs card-header__button js-switch-toggle">
@@ -712,7 +712,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget widget--sidebar card widget-tabbed">
                 <div className="widget__title card__header">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.trendingNews.title}
                   </h4>
                 </div>
@@ -773,7 +773,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget card widget--sidebar widget-banner">
                 <div className="widget__title card__header">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.advertisement.title}
                   </h4>
                 </div>
@@ -787,7 +787,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget widget--sidebar card widget-newsletter">
                 <div className="widget__title card__header">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.newsletter.title}
                   </h4>
                 </div>
@@ -815,7 +815,7 @@ export function MainContent({ featuredCategory, onCategoryChange }: { featuredCa
               </aside>
               <aside className="widget widget--sidebar card widget-preview">
                 <div className="widget__title card__header">
-                  <h4>
+                  <h4 role="heading" aria-level="2">
                     {mc.nextMatch.title}
                   </h4>
                 </div>
