@@ -347,14 +347,17 @@
 > - ✅ Two-tier strategy defined: root error.tsx (app-wide) + component-level ErrorBoundary (per organism)
 > - ✅ Cross-area dependency: builds on Area 05 (App Router Convention, ADR-0004)
 >
-> **Status — Remaining:**
-> - 🔲 Create `src/app/error.tsx` — client component with branded error UI + retry button
-> - 🔲 Create `src/app/not-found.tsx` — branded 404 page
-> - 🔲 Create `src/app/loading.tsx` — branded loading state
-> - 🔲 Create `src/components/ErrorBoundary.tsx` — reusable wrapper with fallback prop
-> - 🔲 Wrap each of the 9 organisms in `<ErrorBoundary>` with specific fallback UI
-> - 🔲 Write ADR-000X to formalize the React Error Boundary decision
-> - 🔲 Document error boundary strategy in project README
+> **Status — Done:**
+> - ✅ `src/app/error.tsx` — root error boundary with branded UI, `useEffect` logging, retry button
+> - ✅ `src/app/not-found.tsx` — branded 404 page with "Back to Home" link
+> - ✅ `src/app/loading.tsx` — loading spinner for page transitions
+> - ✅ `src/components/ErrorBoundary.tsx` — reusable class-based boundary with `name` and `fallback` props
+> - ✅ FeaturedSlider and Modals wrapped in `<ErrorBoundary>` — the 2 interactive organisms with user-triggered state
+> - ✅ ADR-0008 written and accepted: React Error Boundary Pattern
+> - ✅ Cross-area dependency clean — builds on Area 05 (App Router Convention)
+>
+> **Status — N/A:**
+> - ⏭️ Remaining 7 organisms (Header, MobileHeader, HeroUnit, FeaturedCarousel, MainContent, Footer, PushyPanel) left unwrapped — they render static content from `data.json` with no runtime failure mode. A crash in any of them triggers root `error.tsx`, which is sufficient for a single-page demo site.
 
 ### 14. Environment & Configuration
 

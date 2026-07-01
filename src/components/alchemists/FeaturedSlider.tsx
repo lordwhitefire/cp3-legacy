@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { motion } from "framer-motion";
 import data from "@/data/data.json";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 const allSlides = data.mainContent.featuredNews.slides;
 
@@ -45,6 +46,7 @@ export function FeaturedSlider({ featuredCategory }: { featuredCategory: string 
   if (slides.length === 0) return null;
 
   return (
+    <ErrorBoundary name="FeaturedSlider">
     <div className="slick posts posts--slider-featured" style={{ position: "relative" }}>
       <button
         className="slick-prev slick-arrow"
@@ -133,5 +135,6 @@ export function FeaturedSlider({ featuredCategory }: { featuredCategory: string 
         Next
       </button>
     </div>
+    </ErrorBoundary>
   );
 }

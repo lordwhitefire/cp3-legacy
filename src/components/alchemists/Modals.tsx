@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import data from "@/data/data.json";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 const modal = data.modals;
 
@@ -20,6 +21,7 @@ export function Modals() {
   }, []);
 
   return (
+    <ErrorBoundary name="Modals">
       <div ref={modalRef} className="modal fade" id="modal-login-register" tabIndex={-1} role="dialog">
         <div className="modal-dialog modal-lg modal--login" role="document">
           <div className="modal-content">
@@ -101,5 +103,6 @@ export function Modals() {
           </div>
         </div>
       </div>
+    </ErrorBoundary>
   );
 }
