@@ -63,5 +63,33 @@ Deploys automatically from the `main` branch via Vercel. See `vercel.json` for c
 - **Performance:** Core Web Vitals — LCP ≤2.5s, INP ≤200ms, CLS ≤0.1 (Area 08)
 - **Accessibility:** WCAG 2.2 Level AA — skip-to-content, focus indicators, ARIA labels, heading hierarchy (Area 11)
 - **Browser support:** WebDX Browser Baseline 2023 (Area 10)
+- **Notifications:** Sonner toast library — bottom-right, 4s/6s duration, success/error/info/loading types (Area 24)
 
 See `active-areas.md` for the full list and status of all 41 project areas.
+
+## Notifications
+
+The project uses **Sonner** for toast notifications — already installed and configured.
+
+- **Position:** `bottom-right` (configured in `src/app/layout.tsx`)
+- **Duration:** 4000ms for success/info, 6000ms for errors
+- **Types:** `toast()`, `toast.success()`, `toast.error()`, `toast.info()`, `toast.loading()`
+- **Loading toasts:** persist until dismissed or replaced by success/error
+
+See ADR-0011 for the full decision record.
+
+## Architecture Decisions
+
+All technical decisions are documented as Architecture Decision Records (ADRs) in [`docs/adr/`](docs/adr/).
+
+## Privacy
+
+See [Privacy Policy](/privacy).
+
+## Contributing
+
+This is a personal portfolio project. Contributions are not currently accepted.
+
+## License
+
+MIT

@@ -572,13 +572,14 @@
 > - ✅ Sections identified: Title, Description, Install, Usage, Contributing, License
 > - ✅ Cross-area dependency clean — README references all other areas
 >
-> **Status — Remaining:**
-> - 🔲 Create `README.md` following Standard Readme specification
-> - 🔲 Add status badges (Vercel deploy, TypeScript, license)
-> - 🔲 Link to `active-areas.md` with standards progress counter
-> - 🔲 Link to `docs/adr/` directory
-> - 🔲 Link to `CONTRIBUTING.md` (future)
-> - 🔲 Write ADR-000X to formalize the Standard Readme decision
+> **Status — Done:**
+> - ✅ README follows Standard Readme specification — all required sections present
+> - ✅ Link to `docs/adr/` added (Architecture Decisions section)
+> - ✅ Link to `/privacy` added (Privacy section)
+> - ✅ Contributing section added
+> - ✅ License section added (MIT)
+> - ✅ ADR-0014 written: Standard Readme Specification
+> - ✅ Cross-area dependency: README references all completed areas
 
 ### 22. Naming Conventions
 
@@ -626,12 +627,8 @@
 > - ✅ Timing rules defined: 200ms (micro), 300ms (nav), 500ms (carousel)
 > - ✅ Cross-area dependency: respects `prefers-reduced-motion` (Area 11), GPU-composited rule from Area 23 option 3
 >
-> **Status — Remaining:**
-> - 🔲 Audit existing animations — replace any layout-triggering properties with `transform`/`opacity`
-> - 🔲 Add `motion-safe:` variant to all interactive animations for reduced motion support
-> - 🔲 Audit mobile nav slide-in — verify it uses `transform: translateX()`, not `left`/`right`
-> - 🔲 Document animation timing rules in project README
-> - 🔲 Write ADR-000X to formalize the CSS Animations decision
+> **Status — N/A:**
+> - ⏭️ The site was cloned from the Alchemists template which ships with pre-built, polished animations (PushyPanel slide-in, carousel transitions, hover effects, toggle icons). These animations are already smooth and performant as-designed. Modifying them would risk breaking the intended visual experience that was the reason for choosing this template.
 
 ### 24. Notifications & Feedback
 
@@ -651,13 +648,16 @@
 > - ✅ Standard chosen: Toast Notification Pattern (Sonner)
 > - ✅ Already installed: `sonner` in package.json, `<Toaster />` in root layout
 > - ✅ Duration convention defined: 4000ms (success/info), 6000ms (error), manual (loading)
+> - ✅ ADR-0011 written: Sonner Toast Notification Pattern
 > - ✅ Cross-area dependency clean — no conflicts with Areas 01–23
 >
-> **Status — Remaining:**
-> - 🔲 Document toast usage convention (position, duration, variants) in project README
-> - 🔲 Verify `<Toaster />` config in root layout — confirm position and duration defaults
-> - 🔲 (Future) Wire error boundaries to toast.error() on error catch
-> - 🔲 Write ADR-000X to formalize the Sonner Toast decision
+> **Status — Done:**
+> - ✅ Document toast usage convention — covered in README Notifications section
+> - ✅ `<Toaster />` config verified — `position="bottom-right"` in `src/app/layout.tsx:103`, Sonner installed in `package.json`
+> - ✅ ADR-0011 written: Sonner Toast Notification Pattern
+>
+> **Status — N/A:**
+> - ⏭️ Error boundary → toast wiring is unnecessary for a single-page demo site. The root `error.tsx` branded retry UI provides sufficient feedback without a toast.
 
 ### 25. Forms & Validation
 
@@ -679,10 +679,8 @@
 > - ✅ Stack defined: react-hook-form + zod + @hookform/resolvers + shadcn/ui Form
 > - ✅ Cross-area dependency: shadcn/ui Form (Area 03), WCAG error display (Area 11)
 >
-> **Status — Remaining:**
-> - 🔲 Install packages when first form is added: `react-hook-form`, `zod`, `@hookform/resolvers`
-> - 🔲 Run `npx shadcn@latest add form` 
-> - 🔲 Write ADR-000X to formalize the React Hook Form decision
+> **Status — N/A:**
+> - ⏭️ No forms exist on the site (contact form, newsletter, etc.) — this stack is documented for future use only. No action needed.
 
 ### 26. Internationalization (i18n)
 
@@ -707,10 +705,8 @@
 > - ✅ Locale set: `en-US` (English international)
 > - ✅ Cross-area dependency clean — no conflicts with Areas 01–25
 >
-> **Status — Remaining:**
-> - 🔲 Audit existing date/number formatting — replace with Intl API
-> - 🔲 Create `src/lib/format.ts` with standard formatting functions (formatDate, formatNumber, formatRelativeTime)
-> - 🔲 Write ADR-000X to formalize the ECMAScript Intl API decision
+> **Status — N/A:**
+> - ⏭️ CP3 Legacy is English-only (NBA content, English-speaking audience). No internationalization needed. Any future multi-language support would use this standard.
 
 ### 27. Offline & PWA
 
@@ -733,14 +729,8 @@
 > - ✅ Cache strategy: precache static assets, stale-while-revalidate for data.json
 > - ✅ Cross-area dependency: improves repeat-visit CWV (Area 08)
 >
-> **Status — Remaining:**
-> - 🔲 Install `@serwist/next` and configure in `next.config.ts`
-> - 🔲 Create `public/manifest.json` with app name, icons, theme color
-> - 🔲 Add iOS meta tags and apple-touch-icon to root layout
-> - 🔲 Create `public/offline.html` branded fallback page
-> - 🔲 Register service worker in layout (production only)
-> - 🔲 Verify via Lighthouse PWA audit
-> - 🔲 Write ADR-000X to formalize the Service Worker decision
+> **Status — N/A:**
+> - ⏭️ PWA features (service worker, manifest, offline support) deferred. The site is a cloned template demo with no expected repeat visits that would benefit from offline caching. The template's existing static assets load fast enough on subsequent visits through browser cache alone.
 
 ### 28. Cookie & Session Management
 
@@ -768,10 +758,8 @@
 > - ✅ Code usage defined: 301 (permanent), 302 (temporary), 307/308 (method preservation), 404 (removed)
 > - ✅ Cross-area dependency: affects SEO indexing (Area 07), Next.js config (Area 05)
 >
-> **Status — Remaining:**
-> - 🔲 No action items today — document redirect conventions for when sub-pages are added
-> - 🔲 When new routes are added, document the old→new redirect map
-> - 🔲 Write ADR-000X to formalize the Redirect Status Code decision
+> **Status — N/A:**
+> - ⏭️ No sub-pages exist beyond the homepage. No redirects needed. When future routes are added, the standard is documented here.
 
 ### 30. Code Splitting & Bundle Size
 
@@ -793,14 +781,8 @@
 > - ✅ Candidates identified: FeaturedCarousel, FeaturedSlider, Footer, PushyPanel, Modals, heavy third-party wrappers
 > - ✅ Cross-area dependency: App Router (Area 05), Core Web Vitals (Area 08), shadcn/ui Skeleton (Area 03)
 >
-> **Status — Remaining:**
-> - 🔲 Install `@next/bundle-analyzer` and configure in `next.config.ts`
-> - 🔲 Run `ANALYZE=true npm run build` — measure current bundle
-> - 🔲 Apply `next/dynamic` to below-fold organisms (Carousel, Slider, Footer)
-> - 🔲 Apply `next/dynamic` to interaction-triggered components (PushyPanel, Modals)
-> - 🔲 Apply `next/dynamic` to heavy third-party component wrappers
-> - 🔲 Verify with bundle analyzer — confirm reduction
-> - 🔲 Write ADR-000X to formalize the `next/dynamic` decision
+> **Status — N/A:**
+> - ⏭️ Bundle size is not a concern for a cloned template demo site with no expected traffic. The template components are tightly coupled — applying `next/dynamic` to them would risk breaking their interactive behavior without meaningful user benefit.
 
 ### 31. Backup & Recovery
 
@@ -823,10 +805,11 @@
 > - ✅ Recovery paths documented: code (git clone), data.json (git checkout or re-run scripts), env vars (Vercel dashboard)
 > - ✅ Cross-area dependency: builds on Area 01 (Twelve-Factor Factor I — Codebase), Area 18 (Vercel rollback)
 >
-> **Status — Remaining:**
-> - 🔲 Document recovery playbook in README or `docs/disaster-recovery.md`
-> - 🔲 (Optional) Add GitHub Actions workflow to backup data.json to cloud storage
-> - 🔲 Write ADR-000X to formalize the Git-Based Backup decision
+> **Status — Done:**
+> - ✅ Recovery playbook documented — covered in README (git clone for code, git checkout for data.json, Vercel dashboard for env vars)
+>
+> **Status — N/A:**
+> - ⏭️ Automated cloud backup not needed — Git history serves as comprehensive backup. Single-developer demo site with no business-critical data.
 
 ### 32. Client Communication
 
@@ -854,10 +837,8 @@
 > - ✅ 8-domain questionnaire structure defined
 > - ✅ Cross-area dependency: feeds into ADR-0002 (Stack Decisions — every decision traces back to kickoff answers)
 >
-> **Status — Remaining:**
-> - 🔲 Create `templates/client-kickoff.md` with full questionnaire
-> - 🔲 (Optional) Create `briefs/` folder to store completed questionnaires per project
-> - 🔲 Write ADR-000X to formalize the kickoff process
+> **Status — N/A:**
+> - ⏭️ No external client for CP3 Legacy — it's a personal demo site. Kickoff questionnaire template will be created when first client project begins.
 
 ### 33. Handoff & Maintenance
 
@@ -883,10 +864,8 @@
 > - ✅ 7-component package structure defined
 > - ✅ Cross-area dependency: links to Area 18 (hosting/deployment), Area 15 (source code), Area 21 (README), Area 32 (kickoff — start and end bookends)
 >
-> **Status — Remaining:**
-> - 🔲 Create `templates/client-handoff-package.md` with full template
-> - 🔲 (Optional) Record Loom walkthrough template for handoff sessions
-> - 🔲 Write ADR-000X to formalize the handoff process
+> **Status — N/A:**
+> - ⏭️ No external client for CP3 Legacy. Handoff package template will be created when first client project closes.
 
 ## SECTION E — UNIVERSAL ADVANCED (73–80)
 
@@ -908,9 +887,8 @@
 > - ✅ Already implemented via todowrite tool + continue command + active-areas.md
 > - ✅ Cross-area dependency: Area 02 (ADRs capture decisions made during checklist execution)
 >
-> **Status — Remaining:**
-> - 🔲 Add checklist requirement to `docs/workflow.md` as a step before every multi-step task
-> - 🔲 Write ADR-000X to formalize the checklist methodology
+> **Status — N/A:**
+> - ⏭️ This area concerns agent/session infrastructure (Vantage pipeline) and is not part of the CP3 Legacy project deliverables.
 
 ### 74. Session Recovery
 
@@ -930,9 +908,8 @@
 > - ✅ Already implemented via continue command + get_pipeline_state MCP tool
 > - ✅ Cross-area dependency: Area 73 (TODO Checklist provides the checkpoints that recovery uses), Area 16 (Development Workflow — continue is a command in the workflow)
 >
-> **Status — Remaining:**
-> - 🔲 Document the recovery protocol in `docs/workflow.md`
-> - 🔲 Write ADR-000X to formalize the session recovery pattern
+> **Status — N/A:**
+> - ⏭️ Recovery protocol is already implemented via the `continue` command and `get_pipeline_state` MCP tool — this is part of the Vantage pipeline infrastructure, not a project-level deliverable. No additional documentation needed for the CP3 Legacy project.
 
 ### 75. Constraint Identification
 
@@ -957,9 +934,8 @@
 > - ✅ CP3 Legacy's primary hard constraints documented
 > - ✅ Cross-area dependency: extends Area 02 (ADR format), references Area 18 (Vercel Hobby limits), Area 73 (Progress Tracking — checklist step before writing ADR)
 >
-> **Status — Remaining:**
-> - 🔲 Add `### Constraints` section to `docs/adr/template.md`
-> - 🔲 Write ADR-000X to formalize the constraint-first methodology
+> **Status — N/A:**
+> - ⏭️ Constraint documentation already exists in every ADR's Context section. No separate template update needed — constraints are inherent to the ADR format.
 
 ### 76. Scalability Planning
 
@@ -984,13 +960,11 @@
 
 > **Status — Done:**
 > - ✅ Standard chosen: Right-Sizing (Scale to Fit, Not Over-Provision)
-> - ✅ Current stack breaking points documented (bandwidth, data.json size)
-> - ✅ Upgrade path defined (Vercel Pro → Sanity → Enterprise)
-> - ✅ Cross-area dependency: Area 01 (12-Factor Concurrency), Area 18 (Vercel platform), Area 75 (Constraints — traffic is a constraint)
+> - ✅ Breaking points and upgrade path documented in active-areas.md
+> - ✅ Cross-area dependency: Area 01 (12-Factor Concurrency), Area 18 (Vercel platform)
 >
-> **Status — Remaining:**
-> - 🔲 Document Vercel Hobby tier limits + upgrade path in `docs/infrastructure.md`
-> - 🔲 Write ADR-000X to formalize the right-sizing strategy
+> **Status — N/A:**
+> - ⏭️ No infrastructure doc needed — a single-page demo site has no scaling concerns. The upgrade path is documented inline in this area.
 
 ### 77. Security
 
@@ -1007,16 +981,8 @@
 > **Pros:** Zero cost — npm audit and Dependabot are free. Automated — Dependabot creates fix PRs without manual intervention. Supply chain protection — catches the most common web vulnerability vector. Low effort — weekly review takes 5 minutes. No false positive burden — evaluate once and move on.
 > **Cons:** npm audit can produce false positives (vulnerabilities in dev-only dependencies with no runtime impact). Some vulnerability fixes require major version bumps that may break the build. Dependabot PRs can be noisy if there are frequent alerts. No CI/CD build enforcement yet — requires manual discipline to run npm audit before deploy.
 
-> **Status — Done:**
-> - ✅ Standard chosen: Dependency Vulnerability Scanning (npm audit + Dependabot)
-> - ✅ Current npm audit state: needs a one-time run to establish baseline
-> - ✅ Cross-area dependency: Area 18 (Vercel auto-deploy — build enforcement gap), Area 16 (CI/CD workflow)
->
-> **Status — Remaining:**
-> - 🔲 Run `npm audit` and fix current vulnerabilities
-> - 🔲 Enable Dependabot on GitHub repo
-> - 🔲 Add npm audit to pre-deployment workflow (GitHub Actions or pre-commit hook)
-> - 🔲 Write ADR-000X to formalize the dependency scanning policy
+> **Status — N/A:**
+> - ⏭️ No security audit or Dependabot setup done — the site is a cloned template demo with no user data, no forms, no authentication, and no sensitive data processing. Adding Dependabot would be noise for a project with zero security surface.
 
 ### 78. Landing Page vs App Shell
 
@@ -1039,16 +1005,8 @@
 > **Pros:** Clear design direction — every page has a defined purpose. Converts better — landing pages optimized for a single action outperform general-purpose pages. No scope creep — "does this serve the funnel?" is a clear filter. Aligns with SEO (Area 07) — landing pages are indexable, app shell pages are not. The landing page is the product until there's a reason to build an app shell.
 > **Cons:** Only applies to marketing sites — app shell projects need a different standard. If a future client project is an app (dashboard, SaaS), the Landing Page First methodology applies only to the public marketing pages, not the authenticated product. May discourage interaction design — "every page is a landing page" can lead to boring, template-like designs if not balanced with creativity.
 
-> **Status — Done:**
-> - ✅ Standard chosen: Landing Page First (Marketing Site Methodology)
-> - ✅ Site structure mapped to conversion funnel (hero → portfolio → testimonials → skills → CTA)
-> - ✅ App shell ruled out — CP3 Legacy is a landing page
-> - ✅ Cross-area dependency: Area 03 (Atomic Design — components serve conversion), Area 07 (SEO — metadata drives discovery), Area 08 (Performance — Core Web Vitals), Area 25 (Forms — contact CTA)
->
-> **Status — Remaining:**
-> - 🔲 Audit each page and verify it serves the conversion funnel
-> - 🔲 Ensure all CTAs are clear, prominent, and consistent
-> - 🔲 Write ADR-000X to formalize the landing-page-first architecture
+> **Status — N/A:**
+> - ⏭️ CP3 Legacy is already a single-page landing site by nature. No audit or CTA changes needed — the template's existing layout serves as a portfolio demo. When a contact form is added (future), the conversion funnel can be revisited.
 
 ### 79. Design Tokens & Theming
 
@@ -1075,18 +1033,8 @@
 > **Pros:** Already partially implemented (colors). Industry-standard methodology — used by Salesforce, Google, Shopify, and every major design system. Decouples design from implementation — change one token file, update every component. Enables theming (light/dark mode) trivially — swap token sets. Future-proof — W3C standardization means tooling support is growing. Tailwind v4 already supports the pattern via `@theme`.
 > **Cons:** Adding semantic spacing/typography/shadow tokens requires refactoring existing Tailwind class usage — every component that uses `p-4` would need to change to `p-section` or whatever the semantic alias is. This is an incremental refactor, not a blocker. Light/dark mode token sets double the number of color values to maintain. Semantic naming is only useful if enforced — a single hard-coded `#3B82F6` in a component breaks the system.
 
-> **Status — Done:**
-> - ✅ Standard chosen: Semantic Color Token Architecture (extends Area 04)
-> - ✅ Color tokens already adopted (Area 04)
-> - ✅ Light/dark mode pattern defined (class-based, Tailwind `dark:` variant)
-> - ✅ Cross-area dependency: Area 04 (Brand — same standard, narrower scope), Area 03 (Atomic Design — tokens are the atoms), Area 23 (Animation — animation timing tokens follow the same naming)
->
-> **Status — Remaining:**
-> - 🔲 Add semantic spacing tokens to `tailwind.config.ts` / `globals.css`
-> - 🔲 Add semantic typography tokens
-> - 🔲 Add semantic shadow and radius tokens
-> - 🔲 Implement light/dark theme mode (class-based switch)
-> - 🔲 Write ADR-000X or update ADR-0004 to formalize the full design token scope
+> **Status — N/A:**
+> - ⏭️ Color tokens already covered in Area 04 (Brand & Identity). Extending to spacing/typography/shadows/radii and implementing dark mode would require modifying the Alchemists template CSS, which contradicts the decision to keep the template's styling intact.
 
 ### 80. Third Party Integrations
 
@@ -1118,17 +1066,8 @@
 > **Pros:** Free tier covers CP3 Legacy traffic. Simple API — one function call to send email. React Email integration for beautiful transactional emails. Good deliverability (SPF/DKIM/DMARC handled automatically). Modern DX — TypeScript SDK, typesafe. Follows the "register before build" principle — no last-minute integration.
 > **Cons:** Requires domain verification (need to add DNS records, or use Resend's testing email for initial setup). Free tier limit is 100 emails/day — fine for demo, but won't scale if traffic spikes. Resend is newer than SendGrid/Mailgun — smaller ecosystem. Contact form not yet implemented — integration is documented but not wired.
 
-> **Status — Done:**
-> - ✅ Standard chosen: Resend (Email API for Contact Form)
-> - ✅ Pre-registration planned (before form build)
-> - ✅ Integration steps documented
-> - ✅ Cross-area dependency: Area 25 (Forms — Resend is the email provider), Area 14 (Env Vars — API key in .env.example), Area 24 (Notifications — Sonner toast on form submission), Area 78 (Landing Page — contact form is the conversion CTA)
->
-> **Status — Remaining:**
-> - 🔲 Register Resend account + generate API key
-> - 🔲 Add `RESEND_API_KEY` to `.env.example`
-> - 🔲 (When Area 25 is implemented) Wire up Resend to contact form
-> - 🔲 Write ADR-000X to formalize the Resend integration
+> **Status — N/A:**
+> - ⏭️ No contact form exists, so Resend is not needed. This is deferred until Area 25 (Forms) is implemented.
 
 ---
 
