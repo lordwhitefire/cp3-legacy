@@ -145,6 +145,11 @@ export function Footer() {
                         News
                       </a>
                     </li>
+                    <li className="footer-nav__item">
+                      <a href="/privacy">
+                        Privacy
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

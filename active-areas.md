@@ -548,11 +548,11 @@
 > - ✅ Vercel Analytics confirmed cookie-free — no consent banner needed
 > - ✅ Cross-area dependency: covers Area 19 (Vercel Analytics) disclosures
 >
-> **Status — Remaining:**
-> - 🔲 Create `src/app/privacy/page.tsx` with GDPR-compliant privacy policy
-> - 🔲 Add privacy policy link to footer navigation
-> - 🔲 (If contact form added) update privacy policy
-> - 🔲 Write ADR-000X to formalize the Privacy Policy decision
+> **Status — Done:**
+> - ✅ `src/app/privacy/page.tsx` created — GDPR-compliant policy covering data collection, sharing, user rights, contact
+> - ✅ Privacy link added to Footer.tsx navigation
+> - ✅ ADR-0013 written: Privacy Policy (GDPR-Compliant)
+> - ✅ Cross-area dependency: covers Area 19 (Vercel Analytics) disclosures
 
 ### 21. Documentation
 
