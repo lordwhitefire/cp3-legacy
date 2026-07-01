@@ -11,6 +11,7 @@ const siteDescription =
   "Celebrating 19 seasons of greatness — from Wake Forest to the Hall of Fame. Welcome to the ultimate Chris Paul fan destination.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: siteName,
     template: `%s | ${siteName}`,
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/alchemists/assets/images/samples/header_player.png",
+        url: `${siteUrl}/alchemists/assets/images/samples/header_player.png`,
         width: 1200,
         height: 630,
         alt: "CP3 Legacy",
@@ -46,15 +47,15 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteName,
     description: siteDescription,
-    images: ["/alchemists/assets/images/samples/header_player.png"],
+    images: [`${siteUrl}/alchemists/assets/images/samples/header_player.png`],
   },
   robots: {
     index: true,
     follow: true,
   },
   icons: {
-    icon: "/alchemists/assets/images/basketball/favicons/favicon.ico",
-    apple: "/alchemists/assets/images/basketball/favicons/favicon-120.png",
+    icon: "/alchemists/assets/images/samples/favicon.ico",
+    apple: "/alchemists/assets/images/samples/favicon-120.png",
   },
 };
 
