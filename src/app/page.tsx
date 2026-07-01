@@ -66,6 +66,9 @@ export default function Home() {
         }}
       />
       <div className="site-wrapper clearfix">
+      <a href="#main-content" className="sr-only skip-link" style={{ position: "absolute", top: 0, left: 0, zIndex: 9999, padding: "8px 16px", background: "#000", color: "#fff", textDecoration: "none", transform: "translateY(-100%)", transition: "transform 0.1s" }} onFocus={e => (e.target.style.transform = "translateY(0)")} onBlur={e => (e.target.style.transform = "translateY(-100%)")}>
+        Skip to main content
+      </a>
       <p className="sr-only">
         This site was built by Ifedike Victor Makuo (lordwhitefire).
         Remote frontend developer &mdash; React, Next.js, TypeScript.

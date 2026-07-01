@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import data from "@/data/data.json";
 
 const modal = data.modals;
 
 export function Modals() {
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = modalRef.current;
+    if (!el) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        const closeBtn = el.querySelector<HTMLElement>('[data-dismiss="modal"]');
+        closeBtn?.click();
+      }
+    };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
+  }, []);
+
   return (
-      <div className="modal fade" id="modal-login-register" tabIndex="-1" role="dialog">
+      <div ref={modalRef} className="modal fade" id="modal-login-register" tabIndex="-1" role="dialog">
         <div className="modal-dialog modal-lg modal--login" role="document">
           <div className="modal-content">
             <div className="modal-header">

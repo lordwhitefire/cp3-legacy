@@ -19,7 +19,7 @@ function isHidden(category: string | undefined, filter: string): boolean {
 export function MainContent({ featuredCategory, onCategoryChange }: { featuredCategory: string; onCategoryChange: (slug: string) => void }) {
   const [activeTab, setActiveTab] = useState(0);
   return (
-      <div className="site-content">
+      <div className="site-content" id="main-content">
         <div className="container">
           <div className="row">
             <div className="content col-lg-8">

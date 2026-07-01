@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import data from "@/data/data.json";
 
 const panel = data.pushyPanel;
@@ -17,8 +17,26 @@ function isHidden(category: string | undefined, filter: string): boolean {
 }
 
 export function PushyPanel({ isOpen, onClose, featuredCategory }: { isOpen: boolean; onClose: () => void; featuredCategory: string }) {
+  const panelRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
+  }, [isOpen, onClose]);
+
+  useEffect(() => {
+    if (!panelRef.current) return;
+    if (isOpen) {
+      panelRef.current.focus();
+    }
+  }, [isOpen]);
+
   return (
-      <aside className={`pushy-panel${isOpen ? " pushy-panel--active" : ""}`} aria-label="Side panel">
+      <aside ref={panelRef} tabIndex={-1} className={`pushy-panel${isOpen ? " pushy-panel--active" : ""}`} aria-label="Side panel">
         <div className="pushy-panel__inner">
           <header className="pushy-panel__header">
             <div className="pushy-panel__logo">

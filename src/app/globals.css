@@ -136,6 +136,11 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+*:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 2px;
+}
+
 /* NOTE: Tailwind preflight is intentionally NOT loaded — Bootstrap's reboot
    (loaded via <link> in layout.tsx) handles element resets, and the Alchemists
    theme CSS handles everything else. */
