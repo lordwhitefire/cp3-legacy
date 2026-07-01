@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: `${siteUrl}/alchemists/assets/images/samples/header_player.png`,
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "CP3 Legacy",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteName,
     description: siteDescription,
-    images: [`${siteUrl}/alchemists/assets/images/samples/header_player.png`],
+    images: [`${siteUrl}/og-image.png`],
   },
   robots: {
     index: true,
