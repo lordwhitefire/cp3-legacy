@@ -378,13 +378,14 @@
 > - ✅ `.env.local` exists with all current env vars
 > - ✅ Cross-area dependency: builds on Area 01 (Twelve-Factor Factor III — Config in Environment)
 >
-> **Status — Remaining:**
-> - 🔲 Create `.env.example` from `.env.local` with placeholders and descriptions
-> - 🔲 Create `.env.development` with shared dev defaults
-> - 🔲 Audit `.env.local` — verify `NEXT_PUBLIC_` prefix correctness for each var
-> - 🔲 Audit naming convention: `*_TOKEN`/`*_KEY`/`*_SECRET` for sensitive vars
-> - 🔲 Write ADR-000X to formalize the Next.js Environment Variable Convention decision
-> - 🔲 Document env file hierarchy and precedence in project README
+> **Status — Done:**
+> - ✅ `.env.example` updated — all 11 vars from `.env.local` documented with placeholder values and comments
+> - ✅ `.env.development` created — shared default: `NEXT_PUBLIC_SANITY_DATASET=production`
+> - ✅ `NEXT_PUBLIC_` prefix audit — all code usages correctly use `NEXT_PUBLIC_SANITY_PROJECT_ID` (6 references, all consistent). The non-prefixed `SANITY_PROJECT_ID` in `.env.local` is unused/duplicate.
+> - ✅ Naming convention audit — tokens follow `*_TOKEN`/`*_KEY`/`*_SECRET`/`*_SID` naming
+> - ✅ ADR-0009 written and accepted: Next.js Environment Variable Convention
+> - ✅ Cross-area dependency: builds on Area 01 (Twelve-Factor Factor III)
+> - ✅ `.env.development` and `.env.example` are committed (not in `.gitignore`)
 
 ### 15. Version Control Conventions
 
