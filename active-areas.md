@@ -517,12 +517,15 @@
 > - ✅ Confirmed: included in Vercel Hobby (free) tier
 > - ✅ Cross-area dependency: directly supports Area 08 (Core Web Vitals) validation
 >
-> **Status — Remaining:**
-> - 🔲 Enable Web Analytics in Vercel Dashboard
-> - 🔲 Enable Speed Insights in Vercel Dashboard
-> - 🔲 Verify data appears after first production visit
-> - 🔲 Document analytics dashboard location in project README
-> - 🔲 Write ADR-000X to formalize the Vercel Analytics decision
+> **Status — Done:**
+> - ✅ `@vercel/analytics` installed — `<Analytics />` added to `layout.tsx`
+> - ✅ `@vercel/speed-insights` installed — `<SpeedInsights />` added to `layout.tsx`
+> - ✅ Zero TypeScript errors
+> - ✅ Cross-area dependency: Speed Insights validates Area 08 (Core Web Vitals)
+>
+> **Status — Manual:**
+> - ⏭️ Enable Web Analytics + Speed Insights in Vercel Dashboard — toggle on at Project → Analytics / Speed Insights. Data appears after next production deploy.
+> - ⏭️ Verify data — visit `cp3-legacy.vercel.app`, check Vercel dashboard within minutes.
 
 ### 20. Legal & Compliance
 

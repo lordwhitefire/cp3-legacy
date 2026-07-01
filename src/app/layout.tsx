@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./image-specs.css";
 import { Toaster } from "@/components/ui/toaster";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const siteUrl = "https://cp3-legacy.vercel.app";
 const siteName = "CP3 Legacy";
@@ -99,6 +101,8 @@ export default function RootLayout({
       >
         {children}
         <Toaster />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
