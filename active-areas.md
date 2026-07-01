@@ -407,12 +407,16 @@
 > - ✅ Format documented: `type(scope): description`
 > - ✅ Cross-area dependency clean — no overlap with Areas 01–14
 >
-> **Status — Remaining:**
-> - 🔲 Install `husky` + `@commitlint/cli` + `@commitlint/config-conventional`
-> - 🔲 Configure commit-msg hook to enforce Conventional Commits
-> - 🔲 Document commit format, types, and examples in project README
-> - 🔲 (Future) Add `standard-version` or `semantic-release` for automated changelog
-> - 🔲 Write ADR-000X to formalize the Conventional Commits decision
+> **Status — Done:**
+> - ✅ `husky` + `@commitlint/cli` + `@commitlint/config-conventional` installed as devDependencies
+> - ✅ `.husky/commit-msg` hook created — runs `commitlint --edit $1` before each commit
+> - ✅ `commitlint.config.mjs` created — extends `@commitlint/config-conventional`
+> - ✅ Valid messages pass, invalid messages are rejected with clear error
+> - ✅ ADR-0010 written and accepted: Conventional Commits v1.0.0
+> - ✅ Cross-area dependency clean — no overlap with Areas 01–14
+>
+> **Status — Future:**
+> - ⏭️ `standard-version` / `semantic-release` — deferred; requires versioned releases which don't exist for this single-page demo site
 
 ### 16. Development Workflow
 
