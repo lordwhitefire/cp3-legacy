@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 import { MobileHeader } from "@/components/alchemists/MobileHeader";
 import { Header } from "@/components/alchemists/Header";
 import { PushyPanel } from "@/components/alchemists/PushyPanel";
@@ -13,6 +14,14 @@ import { Modals } from "@/components/alchemists/Modals";
 export default function Home() {
   const [isPushyPanelOpen, setPushyPanelOpen] = useState(false);
   const [featuredCategory, setFeaturedCategory] = useState("all");
+
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "production") {
+      import("@axe-core/react").then((axe) => {
+        axe.default(React, ReactDOM, 1000);
+      });
+    }
+  }, []);
 
   return (
     <>

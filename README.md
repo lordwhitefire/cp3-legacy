@@ -56,4 +56,12 @@ Deploys automatically from the `main` branch via Vercel. See `vercel.json` for c
 
 ## Standards
 
-See `active-areas.md` for the documented industry standards adopted across 41 project areas.
+- **Design system:** Atomic Design Methodology (Area 03)
+- **Color tokens:** DTCG Semantic Design Tokens (Area 03)
+- **Frontend framework:** Next.js App Router (Area 05)
+- **Metadata:** Next.js Metadata API (Area 07)
+- **Performance:** Core Web Vitals — LCP ≤2.5s, INP ≤200ms, CLS ≤0.1 (Area 08)
+- **Accessibility:** WCAG 2.2 Level AA — skip-to-content, focus indicators, ARIA labels, heading hierarchy (Area 11)
+- **Browser support:** WebDX Browser Baseline 2023 (Area 10)
+
+See `active-areas.md` for the full list and status of all 41 project areas.

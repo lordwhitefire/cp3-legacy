@@ -114,7 +114,7 @@ export function FeaturedCarousel({ featuredCategory }: { featuredCategory: strin
                       {slide.category}
                     </span>
                   </div>
-                  <h3 className="posts__title" role="heading" aria-level="2">{slide.title}</h3>
+                  <h3 className="posts__title" role="heading" aria-level={2}>{slide.title}</h3>
                   <time dateTime={slide.dateTime} className="posts__date">
                     {slide.date}
                   </time>

@@ -58,6 +58,8 @@ interface SanityArticle {
   featured: boolean;
   image: any;
   authorAvatar: any;
+  titleHighlight?: string;
+  titleEnd?: string;
 }
 
 async function main() {
@@ -143,6 +145,8 @@ async function main() {
         category: a.category || "",
         categoryClass: "",
         title: a.title || "",
+        titleHighlight: a.titleHighlight || "",
+        titleEnd: a.titleEnd || "",
         excerpt: a.excerpt || "",
         author: {
           avatar: buildImageUrl(a.authorAvatar) || "",
@@ -400,7 +404,12 @@ async function main() {
         desc: matchResult.team2Description || backup.mainContent.lastGameResult.match.team2.desc,
       },
       quarters: matchResult.quarters || backup.mainContent.lastGameResult.match.quarters,
-      mvp: matchResult.mvp || backup.mainContent.lastGameResult.match.mvp,
+      mvp: {
+        name: matchResult.mvp?.name || backup.mainContent.lastGameResult.match.mvp.name,
+        photo: buildImageUrl(matchResult.mvp?.photo) || backup.mainContent.lastGameResult.match.mvp.photo,
+        position: matchResult.mvp?.position || backup.mainContent.lastGameResult.match.mvp.position,
+        stats: matchResult.mvp?.stats || backup.mainContent.lastGameResult.match.mvp.stats,
+      },
       stats: matchResult.stats || backup.mainContent.lastGameResult.match.stats,
     };
   }

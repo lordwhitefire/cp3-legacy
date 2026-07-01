@@ -1,5 +1,5 @@
 {
-  "_lastUpdated": "2026-06-30T20:57:23.399Z",
+  "_lastUpdated": "2026-07-01T05:57:54.950Z",
   "_source": "sanity-webhook",
   "site": {
     "name": "CP3 Legacy",
@@ -586,6 +586,8 @@
           "category": "Playoffs",
           "categoryClass": "",
           "title": "NBA Legend says Spurs should have signed Chris Paul for…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "NBA Legend says Spurs should have signed Chris Paul for NBA Finals  BasketNews.com",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -599,6 +601,8 @@
           "category": "Playoffs",
           "categoryClass": "",
           "title": "Isaiah Thomas believes Chris Paul staying could've won the title…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "Isaiah Thomas believes Chris Paul staying could've won the title for the Spurs  sportingnews.com",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -612,6 +616,8 @@
           "category": "The Team",
           "categoryClass": "",
           "title": "Chris Paul is not surprised by the San Antonio Spurs:…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "Chris Paul is not surprised by the San Antonio Spurs: “It ain’t just Wembanyama”  Basketball Network",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -625,6 +631,8 @@
           "category": "Playoffs",
           "categoryClass": "",
           "title": "How a retired point guard is leaving his mark on…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "How a retired point guard is leaving his mark on the Western Conference finals  San Antonio Express-News",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -638,6 +646,8 @@
           "category": "The Team",
           "categoryClass": "",
           "title": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "Chris Paul Reveals what Makes Spurs’ Victor Wembanyama so Special  heavy.com",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -651,6 +661,8 @@
           "category": "Playoffs",
           "categoryClass": "",
           "title": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs |…",
+          "titleHighlight": "",
+          "titleEnd": "",
           "excerpt": "Chris Paul | Scoring Highlights | 2009 NBA Playoffs | New Orleans Hornets Paul Skenes (KTl2oSZXlq)  Mshale",
           "author": {
             "avatar": "https://cdn.sanity.io/images/f8dt6v1z/production/c97546a2c205d1ca28719be47b74463b210e8380-1170x1665.jpg?w=1200",
@@ -1140,13 +1152,7 @@
         },
         "mvp": {
           "name": "Chris Paul",
-          "photo": {
-            "_type": "image",
-            "asset": {
-              "_ref": "image-823c484cc22439cbf0a61d824ec22ff56dfa52ec-1200x800-jpg",
-              "_type": "reference"
-            }
-          },
+          "photo": "https://cdn.sanity.io/images/f8dt6v1z/production/823c484cc22439cbf0a61d824ec22ff56dfa52ec-1200x800.jpg?w=1200",
           "position": "Point Guard",
           "stats": [
             {

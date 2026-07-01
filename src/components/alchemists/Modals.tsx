@@ -20,7 +20,7 @@ export function Modals() {
   }, []);
 
   return (
-      <div ref={modalRef} className="modal fade" id="modal-login-register" tabIndex="-1" role="dialog">
+      <div ref={modalRef} className="modal fade" id="modal-login-register" tabIndex={-1} role="dialog">
         <div className="modal-dialog modal-lg modal--login" role="document">
           <div className="modal-content">
             <div className="modal-header">
